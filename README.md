@@ -9,7 +9,8 @@ recorded off a live installation.
 | file | | |
 |---|---|---|
 | `turn-down-the-moon_animatic_MASTER_1080p.mp4` | 1920×1080, 30fps, 274 MB | the master |
-| `turn-down-the-moon_animatic_REVIEW_720p.mp4` | 1280×720, 30fps, 34 MB | review and comments |
+| `turn-down-the-moon_animatic_REVIEW_720p.mp4` | 1280×720, 30fps, 33 MB | review and comments |
+| `turn-down-the-moon_prompts.pdf` / `.txt` | 8 pages | the prompt sheet, one page per missing shot |
 
 Runtime is exactly **180.000s / 5400 frames**, 44 segments.
 
@@ -66,9 +67,15 @@ trimmed — please flag a timing change rather than cutting into it.
 
 ## The docs
 
-- [`docs/generation-prompts.md`](docs/generation-prompts.md) — every red card
-  with a full prompt, a shared negative prompt, continuity rules and priority
-  order. Start here if you're filling holes.
+- [`docs/turn-down-the-moon_prompts.pdf`](docs/turn-down-the-moon_prompts.pdf) —
+  the prompt sheet that ships with the cut. One page per missing shot, styled
+  like the film, carrying the exact string to paste into a generator. There's a
+  [plain text version](docs/turn-down-the-moon_prompts.txt) too, which is the one
+  you'll actually copy out of.
+- [`docs/generation-prompts.md`](docs/generation-prompts.md) — the same seven
+  with more around them: a shared negative prompt for generators that take one,
+  continuity rules, alternates, and priority order. Start here if you're
+  filling holes.
 - [`docs/outline.md`](docs/outline.md) — the long-form outline: act structure,
   which second of the source footage is used where, how the score is built out
   of telemetry, and how the grade is driven.
