@@ -75,6 +75,15 @@ trimmed — please flag a timing change rather than cutting into it.
 
 ## What changed in this cut
 
+- **The transformation is back in Act III.** The previous cut ran 0:30–0:34.5 of
+  the source and then jumped to 0:42, which is the aftermath — a shredded coat
+  and a surviving tie — so the moment the scientists become beasts happened off
+  screen. It occupies 39.1–42.0 of the source and the turn itself is only 1.6
+  seconds, alternating pale silhouettes with dark beasts so the figures resolve
+  out of their own shadows while the coats come apart. It's now held at half
+  speed over 3.2 seconds, with the BLOOD MOON trigger card in front of it and
+  the aftermath macro behind, so the sequence reads as cause, event, consequence.
+  This is the only speed change in the film.
 - **The antagonist now surfaces in Act I** instead of at 1:35. The energy notice
   lands at 0:10 and its author is glimpsed at 0:24, unexplained, so his return at
   the party's peak reads as a recognition rather than an introduction. Previously
