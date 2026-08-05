@@ -50,7 +50,7 @@ A wellness authority decides a celebration has exceeded its safe allocation of
 energy, and turns it off.
 
 The conflict is stated at **0:10** by an automated notice reading *YOU HAVE
-EXCEEDED YOUR ENERGY SUPPLY*, and paid off at **1:58** when a hand in a
+EXCEEDED YOUR ENERGY QUOTA*, and paid off at **1:58** when a hand in a
 sage-green sleeve pulls the main breaker. Everything in between is the thing
 that gets switched off, measured by an instrument that is eventually deleted for
 disagreeing.

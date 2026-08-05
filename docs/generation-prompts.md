@@ -16,7 +16,13 @@ file is the long version: negatives, alternates, and the reason the shot is ther
 
 **Deliver 16:9, 1920×1080, 30fps.** Generate 2 seconds longer than the slot asks
 for at both ends — every one of these gets cut to the frame against a score that
-can't be trimmed, so handles are not optional.
+can't be trimmed, so handles are not optional. Veo makes this easy by having no
+choice in the matter: at 1080p it only produces 8-second clips, which is longer
+than every slot here.
+
+**Audio is discarded.** Veo generates sound whether you want it or not. We never
+do — the score is synthesised from telemetry and anything underneath it fights
+it. The tooling strips it; if you generate by hand, strip it.
 
 **The house look, which applies to all seven.** These have to cut against 1970s
 broadcast stock, a contest video shot on phones, and our own surveillance UI. The
@@ -31,7 +37,13 @@ thing that makes that survive is commitment to a degraded, observed image:
   crane, a gimbal move, a dolly, or a drone.
 - Nothing looks new. Concrete, steel, worn paint, cheap fabric.
 
-**The negative prompt, also for all seven.** Append to each:
+**The negative prompt, for generators that take one.** Runway and Kling do.
+**Veo 3.x does not** — it has no negative field at all, so for Veo this list has
+to be phrased into the prompt itself, as properties the image has rather than
+things to leave out. `tools/video/generate.py` does that automatically; if
+you're prompting Veo by hand, copy the `STYLE` block out of that file.
+
+For everything else, append:
 
 ```
 cinematic lighting, lens flare, colour grading, teal and orange, shallow cinematic
@@ -50,9 +62,35 @@ gives you anything that looks like a uniform, throw it out and run it again.
 
 ---
 
+## Generating them automatically
+
+`tools/video/generate.py` submits these to Veo straight off the edit. The EDL is
+the source of truth — every red card's prompt lives on the card in
+`tools/video/animatic.py`, so this file and the tool can't drift apart, and a new
+red card appears in the tool the moment it's added to the film.
+
+```sh
+export GEMINI_API_KEY=...                            # Veo needs a paid tier
+python tools/video/generate.py --list                # the seven, one line each
+python tools/video/generate.py --dry-run             # exact prompts, no calls
+python tools/video/generate.py --only power          # just the breaker shot
+python tools/video/generate.py                       # all seven
+```
+
+It asks for 8 seconds at 1080p, folds the house look into each prompt, strips the
+generated audio, trims to the slot length off a 0.4s offset, and writes to
+`build/gen/<slug>.mp4`. Seeds are fixed per shot, so a regeneration is a
+variation rather than a fresh roll of the dice. `--list` and `--dry-run` need no
+key.
+
+Wiring a finished shot into the film is a one-line change: swap that card's
+`S(...)` in the EDL for a `C(...)` pointing at the generated file, and re-render.
+
+---
+
 ## P0 — do these first
 
-### 1. YOU HAVE EXCEEDED YOUR ENERGY SUPPLY
+### 1. YOU HAVE EXCEEDED YOUR ENERGY QUOTA
 
 | | |
 |---|---|
@@ -68,7 +106,7 @@ electricity and vitality, and the authority is counting both. It is paid off at
 ```
 Static macro shot of a wall-mounted domestic utility panel in a dark, empty
 hallway at night. A small amber LCD screen on the panel reads "YOU HAVE EXCEEDED
-YOUR ENERGY SUPPLY / SUPPLY REDUCED TO SAFE LEVEL". A relay clicks inside the
+YOUR ENERGY QUOTA / SUPPLY REDUCED TO SAFE LEVEL". A relay clicks inside the
 panel and the hallway lights behind it step down one level, dimmer. No people in
 shot. Locked-off camera, no movement. Available light only, heavy film grain,
 near-monochrome with the amber display as the only colour in frame. 1990s
