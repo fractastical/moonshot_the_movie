@@ -62,6 +62,52 @@ gives you anything that looks like a uniform, throw it out and run it again.
 
 ---
 
+## Reference plates — do this before generating anything
+
+Text alone will not hold a character across three shots. The Softening's field
+staff appear in **THE METER IN THE DOORWAY**, **WELLNESS INSPECTORS ARRIVE** and
+**THEY CUT THE POWER**, and prompted from words each time they will come back as
+three different people in three different jackets. Veo 3.1 takes up to three
+reference images per generation, and that is the fix.
+
+`tools/video/refs.py` manages them. There are two kinds.
+
+**Extracted — already done.** Pulled out of live-action footage we own, sitting
+in `refs/`:
+
+| plate | what it fixes |
+|---|---|
+| `world_corridor.png` | the institutional corridor, and with it the film's live-action grade — monochrome, fluorescent, grainy, worn. The strongest style plate we have |
+| `world_crt.png` | the CRT wall: screen texture and the light coming off it |
+| `author.png` | the Softening's author. He is only ever real footage, so this is for continuity checking rather than generation |
+
+The contest video is deliberately not a source. It's animation, and these shots
+are degraded live-action documentary — feeding it in would pull them toward the
+wrong medium entirely.
+
+**Authored — still to do.** Three plates the film needs that no footage contains.
+Make each once as a still, look at it properly, then reuse it everywhere:
+
+| plate | needed by | why |
+|---|---|---|
+| `staff.png` | meter, inspectors, power | the field officer. The one that actually matters — three shots, same organisation, currently nothing tying them together |
+| `venue.png` | inspectors, dark, meter | the warehouse. We own no live-action footage of it, so every party shot is free to invent a different building |
+| `dome.png` | ritual, aftermath | the ritual space. Only if the ZVEN rushes really are gone — find those first |
+
+Run `tools/video/refs.py` to print the image prompt for each. Generate it with a
+*still* generator, drop the PNG in `refs/`, and the video harness picks it up
+automatically — `--list` shows which are present and which are missing.
+
+Iterate on the still, not on the video. A still is cheap to regenerate and a
+video is not, so a character is worth getting right on a plate before a single
+second of motion is generated against it.
+
+One API detail the harness handles for you: passing reference images forces
+`person_generation` to `allow_adult`, where text-to-video requires `allow_all`.
+Sending the wrong one is a hard error.
+
+---
+
 ## Generating them automatically
 
 `tools/video/generate.py` submits these to Veo straight off the edit. The EDL is
