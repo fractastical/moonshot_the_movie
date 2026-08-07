@@ -1,4 +1,4 @@
-TURN DOWN THE MOON — generation prompt sheet
+MOONSHOT — generation prompt sheet
 ========================================================================
 
 Deliver 16:9, 1920x1080, 30fps, no audio. Generate longer than the
@@ -10,19 +10,49 @@ avoid-list is folded into each prompt below.
    slot 0:10.0  ·  4.5s  ·  vibe 5 to 6  ·  ask for 8s
 ------------------------------------------------------------------------
 
-The conflict, stated before the film has a hero. An automated notice
-capping a building's draw, nobody in shot. One sentence carries the
-whole argument: the same word covers electricity and vitality, and the
-authority is counting both.
+The conflict before the film has a hero. Not a safety measure — an
+audit. The great thing was achieved, the ledger was closed, and what
+remains is a world billed for what a finished world costs. One word
+covers electricity and vitality and the authority is counting both.
 
 PROMPT:
 
 Static macro on a wall-mounted domestic utility panel in a dark empty
 hallway at night. Small amber LCD reads YOU HAVE EXCEEDED YOUR ENERGY
-QUOTA / SUPPLY REDUCED TO SAFE LEVEL. A relay clicks and the hallway
-lights step down one level. No people, no camera move. Available light,
-heavy grain, near-monochrome with only the amber display in colour. Shot
-on a degraded consumer camera: heavy film grain, soft crushed blacks,
+QUOTA / ALLOCATION SET TO COMPLETED-WORLD BASELINE. A relay clicks and
+the hallway lights step down one level. No people, no camera move.
+Available light, heavy grain, near-monochrome with only the amber
+display in colour. Shot on a degraded consumer camera: heavy film grain,
+soft crushed blacks, halation around any bright source, slightly soft
+focus, slightly underexposed. Almost entirely monochrome — colour
+appears only where named above. Available light only, no film lighting.
+The camera is locked off on a tripod or handheld by someone standing
+still; it does not travel. Everything in frame is worn and ordinary:
+concrete, steel, chipped paint, cheap fabric. Observational documentary
+footage, nobody aware of the camera, nobody posing. Real unglamorous
+people. No text, captions, logos or watermarks anywhere in frame. No
+uniforms, no police, no military, no weapons.
+
+
+------------------------------------------------------------------------
+2. THEIR ALLOCATION WAS CUT
+   slot 0:35.6  ·  3.5s  ·  vibe 10 to 11  ·  ask for 8s
+------------------------------------------------------------------------
+
+The inciting incident, and it is an invoice. Racks powering down mid-
+run, work abandoned in place. What follows is not mysticism, it is the
+same experiment on the only supply left unmetered.   V.O.: "We reduced
+their allocation. I'm told they took it personally."
+
+PROMPT:
+
+Interior of a small cluttered laboratory at night. A rack of computers
+powers down row by row, cooling fans winding to silence, status LEDs
+going out one bank at a time until only emergency lighting is left.
+Papers and coffee cups abandoned mid-work on the bench. No people in
+frame. Locked-off static wide, no camera move. Available light, heavy
+grain, near-monochrome, the last LEDs the only colour. Shot on a
+degraded consumer camera: heavy film grain, soft crushed blacks,
 halation around any bright source, slightly soft focus, slightly
 underexposed. Almost entirely monochrome — colour appears only where
 named above. Available light only, no film lighting. The camera is
@@ -35,38 +65,43 @@ no military, no weapons.
 
 
 ------------------------------------------------------------------------
-2. ZVEN RITUAL — SOURCE NEEDED
-   slot 0:44.9  ·  7.0s  ·  vibe 12 to 21  ·  ask for 8s
+3. ZVEN RITUAL — SOURCE NEEDED
+   slot 0:45.9  ·  7.0s  ·  vibe 15 to 22  ·  ask for 8s
 ------------------------------------------------------------------------
 
 The meditation circle with the crossed blue beams is the most credible
 image in the film and the contest cut contains 1.9 SECONDS of it
 (16.0-17.9). This act wants thirty. Candles, beams, the circle,
-biosensor headbands going on. Highest-value missing asset by a distance.
-If the source is gone, rebuild the act around the aftermath shot and
-sensor inserts — weaker, but survivable.
+biosensor headbands going on. The beams have to leave the structure —
+that is the moonshot, and without it the act is a séance instead of a
+transmission. Highest-value missing asset by a distance; if the source
+is gone, rebuild around the aftermath shot and sensor inserts.
 
 PROMPT:
 
 ONLY IF THE SOURCE IS UNRECOVERABLE — find it first. Twenty people
-seated cross-legged in a meditation circle on the floor of a dark
-geodesic dome, two crossed blue laser beams overhead, candles around the
-perimeter, EEG headbands being fitted. Very slow push-in. Near-
-monochrome except the blue beams. Heavy grain, available light. Shot on
-a degraded consumer camera: heavy film grain, soft crushed blacks,
-halation around any bright source, slightly soft focus, slightly
-underexposed. Almost entirely monochrome — colour appears only where
-named above. Available light only, no film lighting. The camera is
-locked off on a tripod or handheld by someone standing still; it does
-not travel. Everything in frame is worn and ordinary: concrete, steel,
-chipped paint, cheap fabric. Observational documentary footage, nobody
-aware of the camera, nobody posing. Real unglamorous people. No text,
-captions, logos or watermarks anywhere in frame. No uniforms, no police,
-no military, no weapons.
+seated cross-legged on floor cushions in a circle around a cluster of
+candles, inside a temporary tabernacle built of raw pine framing and
+silver mylar sheeting, faceted into an octagonal chamber and erected
+inside a larger dark hall. Two crossed blue laser beams overhead, EEG
+headbands being fitted. Very slow push-in. Then a matching exterior: the
+same two blue beams leaving the roof of the structure into a clear night
+sky and converging on the moon. Near-monochrome except the blue beams
+and the candle flames. Heavy grain, available light. Shot on a degraded
+consumer camera: heavy film grain, soft crushed blacks, halation around
+any bright source, slightly soft focus, slightly underexposed. Almost
+entirely monochrome — colour appears only where named above. Available
+light only, no film lighting. The camera is locked off on a tripod or
+handheld by someone standing still; it does not travel. Everything in
+frame is worn and ordinary: concrete, steel, chipped paint, cheap
+fabric. Observational documentary footage, nobody aware of the camera,
+nobody posing. Real unglamorous people. No text, captions, logos or
+watermarks anywhere in frame. No uniforms, no police, no military, no
+weapons.
 
 
 ------------------------------------------------------------------------
-3. THE METER IN THE DOORWAY
+4. THE METER IN THE DOORWAY
    slot 1:22.1  ·  3.0s  ·  vibe 77 to 78  ·  ask for 8s
 ------------------------------------------------------------------------
 
@@ -75,9 +110,10 @@ the party does not know it is being assessed, which is the point.
 
 PROMPT:
 
-A calibrated sound-level meter held at arm's length in a doorway, red
-LED reading 96.4 dB, a warehouse party strobing out of focus behind it.
-The hand is steady and unhurried, a lanyard swings at the wrist. Shallow
+A calibrated sound-level meter held at arm's length in a raw timber
+doorway, red LED reading 96.4 dB, the interior of a candlelit tabernacle
+of pine framing and silver mylar strobing out of focus behind it. The
+hand is steady and unhurried, a lanyard swings at the wrist. Shallow
 depth — the meter sharp, the celebration soft. Night, available light,
 heavy grain, near-monochrome. Shot on a degraded consumer camera: heavy
 film grain, soft crushed blacks, halation around any bright source,
@@ -92,7 +128,7 @@ frame. No uniforms, no police, no military, no weapons.
 
 
 ------------------------------------------------------------------------
-4. 1 — WELLNESS INSPECTORS ARRIVE
+5. 1 — WELLNESS INSPECTORS ARRIVE
    slot 1:38.1  ·  4.5s  ·  vibe 71 to 46  ·  ask for 8s
 ------------------------------------------------------------------------
 
@@ -103,14 +139,15 @@ intrusion.
 PROMPT:
 
 Three or four people in soft sage-green softshell jackets with ID
-lanyards walk calmly into a hazy warehouse party at night, carrying
-clipboards and a handheld sound meter. One smiles and offers a bottle of
-water to a dancer. No uniforms, no weapons, no urgency. Handheld,
-available light, heavy grain, near-monochrome, slow walk-in. Shot on a
-degraded consumer camera: heavy film grain, soft crushed blacks,
-halation around any bright source, slightly soft focus, slightly
-underexposed. Almost entirely monochrome — colour appears only where
-named above. Available light only, no film lighting. The camera is
+lanyards duck through a low timber doorway and walk calmly into a hazy
+candlelit tabernacle of raw pine framing and silver mylar sheeting at
+night, carrying clipboards and a handheld sound meter. One smiles and
+offers a bottle of water to a dancer. No uniforms, no weapons, no
+urgency. Handheld, available light, heavy grain, near-monochrome, slow
+walk-in. Shot on a degraded consumer camera: heavy film grain, soft
+crushed blacks, halation around any bright source, slightly soft focus,
+slightly underexposed. Almost entirely monochrome — colour appears only
+where named above. Available light only, no film lighting. The camera is
 locked off on a tripod or handheld by someone standing still; it does
 not travel. Everything in frame is worn and ordinary: concrete, steel,
 chipped paint, cheap fabric. Observational documentary footage, nobody
@@ -120,7 +157,7 @@ no military, no weapons.
 
 
 ------------------------------------------------------------------------
-5. 5 — DANCING IN THE DARK
+6. 5 — DANCING IN THE DARK
    slot 1:52.3  ·  6.0s  ·  vibe 25 to 63  ·  ask for 8s
 ------------------------------------------------------------------------
 
@@ -129,8 +166,9 @@ and so does the colour. The hope beat, immediately before the kill.
 
 PROMPT:
 
-A dense crowd dancing hard in near-total darkness, lit only by one or
-two phone torches sweeping across faces and raised arms. Bodies read as
+A dense crowd dancing hard in near-total darkness inside a timber-framed
+chamber hung with silver mylar, lit only by one or two phone torches
+sweeping across faces, raised arms and the sheeting. Bodies read as
 silhouettes and brief flashes. Extreme grain, almost monochrome,
 handheld at chest height inside the crowd. Energy building through the
 shot. Shot on a degraded consumer camera: heavy film grain, soft crushed
@@ -146,7 +184,7 @@ no military, no weapons.
 
 
 ------------------------------------------------------------------------
-6. THEY CUT THE POWER
+7. THEY CUT THE POWER
    slot 1:58.3  ·  3.5s  ·  vibe 63 to 26  ·  ask for 8s
 ------------------------------------------------------------------------
 
@@ -157,10 +195,11 @@ and not one before.
 
 PROMPT:
 
-An electrical intake cupboard in a warehouse corridor, its steel door
+An electrical intake cupboard on the wall of a dark hall, beside a
+temporary structure of raw pine framing and silver mylar, its steel door
 open on a bank of breakers. A gloved hand in a sage-green sleeve takes
-the main breaker and pulls it down. In the same frame the corridor and
-the room beyond drop to black; music and light die together. Single
+the main breaker and pulls it down. In the same frame the hall and the
+lit structure beyond drop to black; music and light die together. Single
 static wide, no cut, no camera move. Available light before, near-total
 darkness after. Heavy grain, near-monochrome. Shot on a degraded
 consumer camera: heavy film grain, soft crushed blacks, halation around
@@ -176,7 +215,7 @@ weapons.
 
 
 ------------------------------------------------------------------------
-7. 3 — THE AFTERMATH
+8. 3 — THE AFTERMATH
    slot 2:19.4  ·  5.0s  ·  vibe 0 to 54  ·  ask for 8s
 ------------------------------------------------------------------------
 
@@ -185,19 +224,21 @@ ten seconds here and the score is silent for all of it.   THE NOTHING.
 
 PROMPT:
 
-Static wide of an emptied warehouse ritual space at dawn: candles burned
-out and smoking, floor cushions stacked against a wall, house
-fluorescents up hard, nobody there. No movement at all except one thread
-of candle smoke. Cold flat light, heavy grain, near-monochrome. Locked
-off, no cut. Shot on a degraded consumer camera: heavy film grain, soft
-crushed blacks, halation around any bright source, slightly soft focus,
-slightly underexposed. Almost entirely monochrome — colour appears only
-where named above. Available light only, no film lighting. The camera is
-locked off on a tripod or handheld by someone standing still; it does
-not travel. Everything in frame is worn and ordinary: concrete, steel,
-chipped paint, cheap fabric. Observational documentary footage, nobody
-aware of the camera, nobody posing. Real unglamorous people. No text,
-captions, logos or watermarks anywhere in frame. No uniforms, no police,
-no military, no weapons.
+Static wide of an emptied tabernacle at dawn — an octagonal chamber of
+raw pine framing hung with silver mylar sheeting, erected inside a
+larger dark hall. Candles burned out and smoking, floor cushions stacked
+against a timber strut, house fluorescents up hard, nobody there. No
+movement at all except one thread of candle smoke. Cold flat light,
+heavy grain, near-monochrome. Locked off, no cut. Shot on a degraded
+consumer camera: heavy film grain, soft crushed blacks, halation around
+any bright source, slightly soft focus, slightly underexposed. Almost
+entirely monochrome — colour appears only where named above. Available
+light only, no film lighting. The camera is locked off on a tripod or
+handheld by someone standing still; it does not travel. Everything in
+frame is worn and ordinary: concrete, steel, chipped paint, cheap
+fabric. Observational documentary footage, nobody aware of the camera,
+nobody posing. Real unglamorous people. No text, captions, logos or
+watermarks anywhere in frame. No uniforms, no police, no military, no
+weapons.
 
 

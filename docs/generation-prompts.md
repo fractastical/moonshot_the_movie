@@ -1,4 +1,4 @@
-# Generation prompts — TURN DOWN THE MOON
+# Generation prompts — MOONSHOT
 
 Seven shots in the 3:00 animatic are red cards: they don't exist yet and can't be
 rendered from our own system. This is the shopping list, with a prompt for each
@@ -78,21 +78,24 @@ in `refs/`:
 | plate | what it fixes |
 |---|---|
 | `world_corridor.png` | the institutional corridor, and with it the film's live-action grade — monochrome, fluorescent, grainy, worn. The strongest style plate we have |
+| `tabernacle.png` | **the venue.** Raw pine framing and silver mylar, faceted into an octagonal passage, erected inside a larger dark hall. Every party shot happens in here |
+| `circle.png` | the ritual — cushions in a ring, candles at the centre, crossed blue beams overhead. All 1.9 seconds of it that exist |
 | `world_crt.png` | the CRT wall: screen texture and the light coming off it |
 | `author.png` | the Softening's author. He is only ever real footage, so this is for continuity checking rather than generation |
 
-The contest video is deliberately not a source. It's animation, and these shots
-are degraded live-action documentary — feeding it in would pull them toward the
-wrong medium entirely.
+The last two of those come out of the contest video, which is animation — so they
+are desaturated and grained on extraction before anything sees them. We want that
+building and those materials, not that medium; a clean animated frame handed to a
+video generator as a reference drags the whole shot back toward animation, which
+is the one thing these must not be.
 
-**Authored — still to do.** Three plates the film needs that no footage contains.
+**Authored — still to do.** Two plates the film needs that no footage contains.
 Make each once as a still, look at it properly, then reuse it everywhere:
 
 | plate | needed by | why |
 |---|---|---|
 | `staff.png` | meter, inspectors, power | the field officer. The one that actually matters — three shots, same organisation, currently nothing tying them together |
-| `venue.png` | inspectors, dark, meter | the warehouse. We own no live-action footage of it, so every party shot is free to invent a different building |
-| `dome.png` | ritual, aftermath | the ritual space. Only if the ZVEN rushes really are gone — find those first |
+| `lab.png` | lab | the laboratory they lose. One shot, but it is the inciting incident and everything after it is a substitution for that room |
 
 Run `tools/video/refs.py` to print the image prompt for each. Generate it with a
 *still* generator, drop the PNG in `refs/`, and the video harness picks it up
@@ -149,13 +152,18 @@ a hero or a party to lose. The sentence does the work: the same word covers
 electricity and vitality, and the authority is counting both. It is paid off at
 1:58 when the same authority puts a hand on a breaker.
 
+The second line of the readout is the one that matters and it is easy to lose. The
+cap is not a safety measure, it is an audit — the great thing was achieved, the
+ledger was closed, and what is left gets billed at what a finished world costs.
+That is the whole antagonist in one line of amber text.
+
 ```
 Static macro shot of a wall-mounted domestic utility panel in a dark, empty
 hallway at night. A small amber LCD screen on the panel reads "YOU HAVE EXCEEDED
-YOUR ENERGY QUOTA / SUPPLY REDUCED TO SAFE LEVEL". A relay clicks inside the
-panel and the hallway lights behind it step down one level, dimmer. No people in
-shot. Locked-off camera, no movement. Available light only, heavy film grain,
-near-monochrome with the amber display as the only colour in frame. 1990s
+YOUR ENERGY QUOTA / ALLOCATION SET TO COMPLETED-WORLD BASELINE". A relay clicks
+inside the panel and the hallway lights behind it step down one level, dimmer. No
+people in shot. Locked-off camera, no movement. Available light only, heavy film
+grain, near-monochrome with the amber display as the only colour in frame. 1990s
 security-camera character, slightly soft, slightly underexposed.
 ```
 
@@ -166,6 +174,43 @@ shot is the important beat, not the text.
 
 Alternate if the panel reads as too domestic: the same notice on a printed letter
 under a door, or on a wall-mounted meter in a stairwell.
+
+---
+
+### 1b. THEIR ALLOCATION WAS CUT
+
+| | |
+|---|---|
+| slot | 0:35.6, opening Act II |
+| length | 3.5s |
+| vibe | 6 → 11 (waking) |
+
+The film's inciting incident, and until this card existed the ritual had no cause
+— twenty people sat in a dome because the story needed them to. They are there
+because this room stopped working.
+
+That makes everything in Act II a substitution for equipment they can no longer
+power. The circle is not a séance, it is the same experiment run on the only
+supply nobody is metering, and the beams leaving the dome are the output stage.
+Get this shot right and the rest of the act stops looking like mysticism.
+
+```
+Interior of a small cluttered laboratory at night. A rack of computers powers
+down row by row, cooling fans winding down to silence, status LEDs going out one
+bank at a time until only emergency lighting remains. Papers, notebooks and
+coffee cups abandoned mid-work on the bench. Cable runs, a whiteboard covered in
+working. No people in frame. Locked-off static wide, no camera movement.
+Available light only, heavy film grain, near-monochrome, the last equipment LEDs
+the only colour in frame.
+```
+
+Notes. The fans winding down are the sound of this shot and probably its best
+asset — ask for them explicitly. Nobody in frame is deliberate: the people are
+already gone, and where they went is the next card.
+
+Alternate if the rack reads as too corporate: a bench of lab instruments — a
+centrifuge spinning down, an oscilloscope going dark — which is smaller and more
+personal.
 
 ---
 
@@ -187,7 +232,8 @@ Cutting the power and deleting the record are the same action here. With the roo
 dark the meter has nothing to read, so the evidence ends with the light.
 
 ```
-An electrical intake cupboard in a warehouse corridor, its grey steel door open on
+An electrical intake cupboard on the wall of a dark hall, beside a temporary
+structure of raw pine framing and silver mylar, its grey steel door open on
 a bank of old breakers. A gloved hand in a soft sage-green sleeve reaches in,
 takes hold of the main breaker and pulls it down firmly. In the same frame, the
 corridor and the lit room visible beyond it drop to black — the music and the
@@ -281,7 +327,8 @@ at two to three seconds per beat, so the calm itself is the intrusion.
 
 ```
 Three or four people in soft sage-green softshell jackets with ID lanyards walk
-calmly into a hazy warehouse party at night. They carry clipboards and a handheld
+through a low timber doorway and calmly into a hazy candlelit tabernacle of raw
+pine framing and silver mylar sheeting at night. They carry clipboards and a handheld
 sound-level meter. One of them smiles and offers a bottle of water to a dancer,
 who takes it, confused. No uniforms, no insignia, no weapons, no urgency at all.
 Handheld observational camera, following at a distance. Available light, haze,
@@ -309,7 +356,8 @@ which is what makes three seconds enough.
 
 ```
 A calibrated handheld sound-level meter held at arm's length in a doorway, its red
-LED display reading 96.4 dB. Behind it and far out of focus, a warehouse party
+LED display reading 96.4 dB. The doorway is raw timber. Behind it and far out of
+focus, a candlelit tabernacle of pine framing and silver mylar
 strobing and full of people. The hand holding the meter is steady and unhurried,
 an ID lanyard hanging from the wrist. Very shallow depth of field — the meter
 sharp, the celebration soft. Night, available light, heavy grain, near-monochrome
@@ -333,7 +381,8 @@ The Nothing. Five seconds of a room that had something in it. This is the longes
 the film holds anything, and it should be uncomfortable.
 
 ```
-Static wide shot of an emptied warehouse ritual space at dawn. Candles burned out
+Static wide shot of an emptied tabernacle at dawn — an octagonal chamber of raw
+pine framing hung with silver mylar, erected inside a larger dark hall. Candles burned out
 and still smoking, floor cushions stacked against a wall, house fluorescent lights
 up hard and flat, nobody there at all. No movement anywhere in frame except one
 thin thread of candle smoke rising. Locked-off camera, absolutely no movement, no
@@ -348,17 +397,23 @@ the shot reading as a freeze frame.
 
 ## Not on this list: the amber cards
 
-Six cards in the animatic are amber, meaning we render them ourselves out of
+Seven cards in the animatic are amber, meaning we render them ourselves out of
 VibeMap and real telemetry. No generator, no shoot, no cost:
 
 | slot | length | card |
 |---|---|---|
-| 0:19.5 | 5.0s | GLOBAL CELEBRATION INDEX — the index at 0.03%, vibe at 6 |
-| 1:01.9 | 3.7s | THE NUMBER WAKES UP — the meter climbing 28 → 43 |
+| 0:19.5 | 5.0s | NOTHING OUTSTANDING — the index at 0.03%, vibe at 6, read as a success |
+| 1:01.9 | 3.7s | SIGNAL STRENGTH — the meter climbing 28 → 43 |
 | 1:45.3 | 4.0s | THE NUMBER FALLS — 39 / 25 / 16 as the caps bite |
-| 1:49.3 | 3.0s | THE INSTRUMENT DISAGREES — a full room reading 16 |
+| 1:49.3 | 3.0s | THE INSTRUMENT DISAGREES — a full room reading 16, and the third party's first refusal |
 | 2:24.4 | 5.0s | THE TURN — 0 → 1 → 2, the map relighting |
-| 2:54.4 | 5.6s | TURN DOWN THE MOON — title and the HYPERSTITION lockup |
+| 2:46.4 | 4.0s | THE INSTRUMENT SIGNS ON — a second trace that leads the first, OBSERVER → PARTICIPANT |
+| 2:54.4 | 5.6s | MOONSHOT — title and the HYPERSTITION lockup |
+
+Two of those are load-bearing rather than decorative. **THE INSTRUMENT DISAGREES**
+is where the readout declines to corroborate him, and **THE INSTRUMENT SIGNS ON**
+is where it takes the other side — the film's third party, which has no voice and
+does all of its arguing in the chrome. Treat them as performances, not as titles.
 
 ---
 

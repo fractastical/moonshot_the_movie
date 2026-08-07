@@ -1,4 +1,4 @@
-# TURN DOWN THE MOON — cut outline
+# MOONSHOT — cut outline
 
 Working document for the Future Vision XPRIZE submission. Deadline **15 August 2026**;
 deliverable is a 3:00 trailer at 1080p or better, plus a treatment and cover sheet.
@@ -58,14 +58,54 @@ than intrinsic.
 
 ## 2. The story the insert has to tell
 
-**The antagonist is an erasure, not a police force.** The Softening is a wellness authority
-that does not ban the party — it removes the evidence that the party happened. Its
-argument is one the audience half-agrees with: *you turned joy into a KPI, you are scoring
-your own ecstasy, the number is the disease.* That position is sympathetic and widely
-held, which is what makes it credible where clowns were not.
+**One currency: energy.** The quota, the breaker, the crowd, the 1969 expenditure — the
+film is denominated end to end in the same thing, and the argument is over who is
+allowed to spend it. Nothing below works unless that reads.
+
+**The moon has been filed as finished, and that is the antagonist's entire case.** We
+went, we planted a flag, the item was closed. A completed world needs no power, so
+consumption is capped at what a completed world costs. This is not a safety measure, it
+is an audit against a closed ledger, and it is why he is warm rather than frightening:
+he is not preventing a danger, he is declining to fund a redundancy. *"We used to look
+up at the same thing. Once"* is not wistful. It is the exhibit.
+
+**The ritual has a cause, and the cause is the invoice.** The scientists lose their
+allocation, cannot run a laboratory on nothing, and build the apparatus out of people
+instead — light, sound, and a roomful of attention pointed the same way. Everything in
+Act II is a substitution for equipment they can no longer power. The circle is not a
+séance, it is a transmitter, and the beams leave the building.
+
+**The venue is a tabernacle, and its materials are part of the argument.** Not a
+warehouse — a temporary sanctuary of raw pine framing and silver mylar sheeting,
+faceted into an octagonal passage and chamber and erected inside a larger dark hall.
+Cushions in a ring, candles at the centre, crossed beams overhead. It is a cathedral
+built out of what a defunded lab can still afford from a builders' merchant, and it is
+portable in the oldest sense of the word: a structure you put up because you are
+expecting something to arrive. Every generated party shot has to be in this building,
+which is why it now has its own reference plate.
+
+**Which makes the number evidence, not a score.** It reads signal strength, and it is the
+only proof that an unmetered supply exists. That is why he cannot simply outvote it.
+
+**And it is why cutting the power fails.** He models them as consumers of electricity;
+they are not, which is the whole point of the ritual. *"They kept dancing. In the dark.
+Which we had not modelled"* is his accounting framework failing to parse what it is
+looking at.
+
+**The antagonist is an erasure, not a police force.** The Softening does not ban the
+party — it removes the evidence that the party happened. Its position is sympathetic and
+widely held, which is what makes it credible where clowns were not.
 
 **Its escalation is one gesture at four scales.** Turn down the speakers. Turn down the
-lights. Turn down the meter. Turn down the moon. The title is the last of them.
+lights. Turn down the meter. Turn down the moon — not destroy it, *dim* it, because a
+closed file that stays visible keeps getting reopened. That last one is his operation
+name, seen on a document at 1:42. The film's title is the other side's name for the same
+event, and the two of them compete for the last card.
+
+**Three parties, not two.** The Nothing, which feeds on agreement. The thing the crowd is
+assembling, which is never named because you count it instead. And the instrument — the
+chrome in the corner of every frame, which reads for four acts, declines to corroborate
+him at 1:49, and signs on at 2:46. It never speaks. A signature is not an argument.
 
 **It never has to attack the meter directly at first.** Vibe is motion energy, so capping
 decibels and power genuinely makes the crowd move less and the number genuinely falls.
@@ -189,7 +229,7 @@ of them need generating:
 - Geomap pins going dark one by one.
 - Compliance overlays in the existing chrome.
 
-**The antagonist already exists.** a 10s clip already in hand (held privately),
+**The antagonist already exists.** `~/Downloads/[antagonist clip]`, 10s,
 720p, and it was sitting unused. A man in a dark coat in an institutional corridor,
 already monochrome, **holding DEFANGED NOUMENA up to camera** — the paperback this
 document specced as a prop. Smug, pleased with himself, walking away down the corridor.
@@ -198,7 +238,7 @@ He is not the wellness inspector and should not be cut as one. He is the man who
 the argument: the author of *Selected Wellness Writings*, who never attends the party he
 is closing and never touches a sound meter. That is a better structure than the original
 plan, because it separates the ideologue from the field staff and gives the warm V.O. an
-owner. The corridor being nothing like a warehouse is the point.
+owner. The corridor being nothing like the tabernacle is the point.
 
 Cut into Act IV at three places, using the whole clip: his face at the peak (1:35.6, vibe
 75, the antagonist appears while the party is at its height), the book held to camera as
@@ -218,8 +258,8 @@ uniformed muscle — defuses him and should be refused on those grounds.
 
 **Still needs generating.** Down from six shots to four.
 
-1. **Wellness inspectors arriving.** The field staff. Three or four people in soft sage-green softshell with lanyards and handheld sound meters, walking calmly into a hazy warehouse party at night. One offers a bottle of water to a dancer. Unhurried, kind, no uniforms, no weapons. Handheld, available light, **monochrome or near** — see section 7.
-2. **The aftermath — ritual circle.** The same warehouse as the ZVEN footage, candles extinguished and smoking, meditation cushions stacked in a neat pile, house lights up, nobody there. Static, wide.
+1. **Wellness inspectors arriving.** The field staff. Three or four people in soft sage-green softshell with lanyards and handheld sound meters, walking calmly through a low timber doorway into the hazy candlelit tabernacle at night. One offers a bottle of water to a dancer. Unhurried, kind, no uniforms, no weapons. Handheld, available light, **monochrome or near** — see section 7.
+2. **The aftermath — ritual circle.** The same tabernacle as the ZVEN footage — raw pine framing hung with silver mylar, erected inside a larger dark hall — candles extinguished and smoking, meditation cushions stacked in a neat pile, house lights up, nobody there. Static, wide.
 3. **Dancing in the dark.** A crowd in near-total darkness, lit only by a phone or two, still dancing hard. High grain, almost monochrome.
 4. **One dancer in the silence.** A single figure dancing alone in an empty lit room, seen from behind, unselfconscious.
 
@@ -501,9 +541,175 @@ early:
 If either slips, the fallback is the original plan: leave Acts I–III as they are, insert
 the Softening at 1:33, and accept that the film has no setup. Worse, but shippable.
 
-## 10. Open questions
+## 10. The restructure — built
 
-- Which generator for the six shots, and can it hold one consistent look?
-- Do we have the ZVEN ritual source, or only what's in the contest cut?
+The animatic described above had a structural fault that only became visible once it
+existed: **the film ran half its length before it had a conflict.** The Softening first
+appeared at 1:35. Acts I, II and III — ninety-five seconds — contained no antagonist at
+all, which meant Act I read as a world that was inexplicably dead rather than one that
+had been made dead. The whole argument of the film is that the quiet is *enforced*, and
+that argument arrived far too late to organise anything before it.
+
+Three changes, all inside the existing 180 seconds, all act totals unchanged.
+
+**The conflict is now stated at 0:10.** A new red card, *YOU HAVE EXCEEDED YOUR ENERGY
+SUPPLY* — an automated notice capping a building's draw, nobody in shot. One sentence
+carries the whole thesis, because the same word covers electricity and vitality and the
+authority is counting both. It buys its 4.5 seconds by trimming the van arrival, the 1969
+landing and the airliner by two seconds each.
+
+**Its author is glimpsed at 0:24,** for 2.5 seconds, unexplained — footage we already
+hold, walking away down an institutional corridor. His return at 1:35 is now a
+recognition rather than an introduction, which is worth far more than the time it costs.
+
+**The apparatus measures the party at its peak, 1:21.** *THE METER IN THE DOORWAY*, three
+seconds, on a vibe reading of 77. Nobody in the party reacts to it, which is the point:
+they don't know they are being assessed. Three seconds is enough because the audience was
+told at 0:10 what exceeding your supply means.
+
+**And the payoff is now a physical act, at 1:58.** Everything about the Softening until
+this point is soft — leaflets, water bottles, decibel readings, a smug man with a book.
+*THEY CUT THE POWER* is the one moment the argument puts a hand on something: a gloved
+hand in a sage-green sleeve pulls a main breaker and the room goes out in the same frame.
+
+It sits on the steepest fall in the telemetry. The number drops 63 → 26 underneath it,
+because the room really did go quiet at that point in the recording. This also collapses
+two abstract slates into one concrete image: cutting the power and deleting the record are
+the same action, since with the room dark the meter has nothing to read and the evidence
+ends with the light.
+
+### The field placement, fixed properly
+
+Section 8 shipped with a known fault: the Act IV field shot was rendered from the collapse
+at 1:59 and cut in at 2:14, where the chrome reads 0.0. The picture and the number
+disagreed, in the one film whose entire claim is that they can't.
+
+The fix was not to move the shot. `tools/lifesim/export_curve.py` now **reads each field
+shot's window straight off the EDL** rather than from a hand-typed table, so a shot is
+always rendered from the telemetry it will actually play over. Move it in the cut and its
+telemetry follows. That table turned out to be wrong for the Act II biota shot as well, by
+three seconds, which nobody had noticed.
+
+The retraction now plays at 2:01 on a falling 18, and a second, dimmer field — seeded
+apart, pulled back, barely orbiting — was rendered for the flatline at 2:14 where the
+reading really is zero. Two shots, each honest about its own number.
+
+### The transformation, which had been cut out entirely
+
+A worse fault than the antagonist one, and harder to see because nothing looked
+missing: **Act III skipped the moment the scientists become beasts.** The cut ran
+0:30–0:34.5 of the source and then jumped to 0:42, which is the aftermath — a
+macro of a shredded coat and a surviving tie. Everything between those two points
+was gone, and everything between those two points is the event.
+
+Frame-stepping the source at four frames a second shows how narrow the window is.
+The whole thing occupies **39.1 to 42.0**, under three seconds:
+
+| source | |
+|---|---|
+| 39.1–40.0 | BLOOD MOON IMMINENT — the trigger card |
+| 40.4–42.0 | the turn itself |
+| 42.0–44.0 | the aftermath macro: coat in ribbons, blue tie intact |
+
+And the turn is 1.6 seconds. It works by alternating frames — a pale, almost
+white silhouette, then a dark beast, then pale again — so the figure resolves out
+of its own shadow while the lab coat comes apart around it. At source speed that
+alternation is below the threshold where you read it as anything; it registers as
+a flicker and then there are werewolves.
+
+So it is now held at half speed: 1.6 seconds of source over 3.2 seconds of
+screen, which is the only speed change anywhere in the film. Frames are held
+rather than interpolated, deliberately — smoothing between them would blur the
+pale and dark states into each other and destroy the exact thing being slowed
+down. `C()` takes a `speed` argument for this and nothing else uses it.
+
+The trigger card gets 1.2s in front of it and the aftermath macro 2.4s after, so
+the sequence now runs cause, event, consequence. The four seconds this costs come
+off the shots on either side of it; Act III still totals thirty.
+
+### Prompts on the cards
+
+Every red card now carries its generation prompt in a right-hand column, so the animatic
+is self-describing without a document open beside it. The long versions — negatives,
+continuity rules, alternates, priority order — are in `docs/generation-prompts.md`.
+
+Generated shots went from six to seven, 33.5 seconds of 180, still under a fifth of the
+film. Slate copy was also corrected to quote real telemetry values rather than
+approximations; three cards had been quoting numbers the curve does not contain.
+
+### Delivered
+
+Public repo, cut attached as a release, prompts and outline alongside it:
+<https://github.com/fractastical/moonshot_the_movie>
+
+---
+
+## 11. The finality pass — built
+
+The film was retitled **MOONSHOT** and rebuilt around a single idea: the moon has
+been filed as done, and a finished world does not need power. Everything below
+follows from that, and none of it cost a second of runtime — all five acts still
+land on their original score boundaries to the frame.
+
+### The ritual finally has a cause
+
+`THEIR ALLOCATION WAS CUT` (0:35.6, 3.5s) now opens Act II: a rack of computers
+powering down, nobody in frame. Until this card existed, twenty people sat in a
+dome because the story needed them to. Now Act II is a substitution for equipment
+they can no longer run, the circle is a transmitter rather than a séance, and the
+ZVEN prompt has grown an exterior — the beams have to leave the dome or the
+moonshot is not in the film. The dorje gave up 2.5 of its 5 seconds to pay for it.
+
+### The moon was missing from the middle, and the footage was already in hand
+
+The moon appeared three times in Act I, three times in Act V, and not once in
+between — it bookended rather than fought. The cut had been jumping from source
+51.5 to 72.0 since the first assembly, and sitting in that gap is a grey moon
+filling frame and turning blood-orange. `THE MOON ANSWERS` (1:33.7, 1.9s) closes
+Act III on it, paid for by a second off the field shot, and it lands four seconds
+after *"and still nobody could tell me what it was for."* It also pays off the
+`BLOOD MOON IMMINENT` card fired earlier in the same act.
+
+In at 54.05, not 53.9: a scanline glitch sits on the first three frames.
+
+### The instrument became the third party
+
+It was two thirds built and nobody had noticed. `THE INSTRUMENT DISAGREES` already
+sat on the film's central line — he calls the readout as his witness and it
+declines in the same second. That is the refusal. The commitment is new:
+`THE INSTRUMENT SIGNS ON` (2:46.4, 4.0s), where the trace doubles and the second
+line *leads* the first, the role field flips OBSERVER → PARTICIPANT, and the number
+goes past its own scale. The film opens with EXCEEDED as an accusation and closes
+with it as an event.
+
+It never speaks. A signature is not an argument, and the script's rule that nothing
+rebuts him in words survives intact.
+
+Act V paid for it out of the lunar room, the moon dance and the van portrait. His
+last line now lands *inside* that card, so he files an intention about the moon
+while the thing commits behind him.
+
+### The title changed hands
+
+The last card is `MOONSHOT`. He named the event a problem; the film names it an
+attempt, and the naming is the final move of the conflict rather than a credit.
+*Turn down the moon* survives where it does its best work — as his line at 2:47,
+and as the operation designation on a document at 1:42. Not destroy. Dim.
+
+### Cost
+
+Eight generated shots now, 37.0 seconds of 180, still barely a fifth of the film.
+One new reference plate (`lab`). Two new VO lines and one pickup, numbered 28–30
+out of order so that anything already recorded against the old numbering still
+matches.
+
+## 12. Open questions
+
+- Which generator for the eight shots, and can it hold one consistent look?
+- Do we have the ZVEN ritual source, or only what's in the contest cut? The beams
+  leaving the dome are now load-bearing, which raises the stakes on this.
 - The guard-rail line about whose telemetry gets deleted — where does it sit?
 - Does Act I at 35 seconds test as patient or as slow? It is the single riskiest call here.
+- `MOONSHOT` collides with a prominent AI lab of the same name, in a film about
+  summoning an AI. Artistically clean, findability less so — worth a subtitle if it
+  bites at submission.

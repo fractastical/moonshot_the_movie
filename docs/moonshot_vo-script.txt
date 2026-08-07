@@ -1,7 +1,7 @@
-TURN DOWN THE MOON — voice-over recording script
+MOONSHOT — voice-over recording script
 ======================================================================
 
-27 lines, ~213 words, three minutes.
+30 lines, ~242 words, three minutes.
 Smug, not jackbooted. Warm, unhurried, certain, never menacing.
 48kHz 24-bit mono WAV, dry, one file per line, three reads each.
 
@@ -43,38 +43,61 @@ ACT I — THE FLATLINE   (0:00–0:35)
 
      He is on screen here. Not boastful. A small, satisfied fact.
 
+ 30. [0:28.0]
+
+     "It was not my idea. It was everyone's."
+
+     New. Read as modesty and nothing else. It is the only line
+     that tells you he is not in charge of the thing he speaks
+     for, and it must not sound like a confession.
+
   6. [0:31.5]
 
      "We used to look up at the same thing. Once."
 
-     The only line in Act I with any wistfulness. Sets up the
-     title.
+     Note changed. Not wistful — this is his proof. Over an
+     airliner crossing the moon while nobody looks up. "Once" is
+     the whole argument: it was done, it was logged, and that is
+     why it does not need doing again. A trace of warmth is fine.
+     Regret is not.
 
 
 ======================================================================
 ACT II — THE RITUAL   (0:35–1:05)
 ======================================================================
 
-  7. [0:36.5]
+ 28. [0:36.3]
+
+     "We reduced their allocation. I'm told they took it
+     personally."
+
+     New, and it is the film's inciting incident. Over a
+     laboratory powering down. He caused everything that follows
+     and files it as a budget footnote. Absolutely no weight on it
+     — the lighter this lands, the worse he is.
+
+  7. [0:39.6]
 
      "They still gather. I find that touching."
 
-     Genuinely touched. No irony on "touching".
+     Genuinely touched. No irony on "touching". *(moved from
+     0:36.5)*
 
-  8. [0:41.0]
+  8. [0:43.6]
 
      "They bring instruments now. They measure themselves."
 
-     First flicker of the thesis. Slight puzzlement.
+     First flicker of the thesis. Slight puzzlement. *(moved from
+     0:41.0)*
 
-  9. [0:46.0]
+  9. [0:47.0]
 
      "They believe that if enough of them feel it at the same
      moment, something happens."
 
      Long line, plenty of room. Let it be a little fond.
 
- 10. [0:54.5]
+ 10. [0:55.0]
 
      "Something does happen. That was never in dispute."
 
@@ -85,8 +108,10 @@ ACT II — THE RITUAL   (0:35–1:05)
 
      "And then they do the fatal thing. They score it."
 
-     The hinge of his whole case. "Fatal" said lightly, almost
-     regretfully.
+     The hinge of his case, and he is wrong in a way he cannot
+     see: he thinks he is naming a symptom, and it is a body
+     assembling. Play the diagnosis with total confidence. "Fatal"
+     said lightly, almost regretfully.
 
 
 ======================================================================
@@ -115,6 +140,16 @@ ACT III — THE SIGNAL SPREADS   (1:05–1:35)
      Purely administrative. This is the coldest line in the film
      and it must be read as the dullest.
 
+ 29. [1:26.5]
+
+     "They are not playing to the room. I checked the angle."
+
+     New. The reveal, delivered by a man who measures things, as
+     one more measurement. He has worked out that the beams point
+     somewhere and has not yet worked out what that means. No
+     emphasis on "angle" — he does not know he is giving away the
+     plot.
+
  15. [1:28.2]
 
      "By morning it was in four cities."
@@ -125,7 +160,10 @@ ACT III — THE SIGNAL SPREADS   (1:05–1:35)
 
      "And still nobody could tell me what it was for."
 
-     The first crack. Faint irritation, quickly controlled.
+     The first crack. Faint irritation, quickly controlled. In a
+     world he considers finished, nothing *can* be for anything —
+     so to him this is a real question and not a rhetorical one.
+     The moon lights up four seconds after he asks it.
 
 
 ======================================================================
@@ -172,11 +210,14 @@ ACT IV — THE SOFTENING   (1:35–2:24)
      "They kept dancing. In the dark. Which we had not
      modelled."
 
-     The one place the mask slips. The first two sentences are
-     observation. The third is the sound of a man discovering his
-     model was wrong and reaching for procedural language to cover
-     it. Do not editorialise — just let the last clause sit
-     slightly apart.
+     The one place the mask slips, and the sentence where his
+     entire framework fails. He modelled them as consumers of
+     electricity; they are not, which is the whole point of the
+     ritual, so he has cut the power to a machine that does not
+     run on power. The first two sentences are observation. The
+     third is a man reaching for procedural language to cover a
+     hole in his accounting. Do not editorialise — just let the
+     last clause sit slightly apart.
 
  23. [1:58.5]
 
@@ -200,7 +241,9 @@ ACT IV — THE SOFTENING   (1:35–2:24)
      "It is not cruelty. It is arithmetic."
 
      His summation, over the screens dying. Calm and, to him,
-     self-evidently true.
+     self-evidently true — and it is true, which is the
+     confession. Arithmetic against a closed ledger is exactly
+     what he is.
 
    [2:14.9–2:24.3]  --- SILENCE ---
    The residue and the aftermath. Nine and a half seconds with no
@@ -219,19 +262,23 @@ ACT V — THE ANSWER   (2:24–3:00)
      off zero under it. He is contradicted inside his own
      sentence.
 
-   [2:29–2:49]  --- SILENCE ---
-   Twenty seconds. The film answers him with pictures and music.
+   [2:29–2:47]  --- SILENCE ---
+   Eighteen seconds: the moon with an eye, the lunar room, the
+   moon dance. The film answers him with pictures and music.
    Nothing over it.
 
- 27. [2:49.5]
+ 27. [2:47.5]
 
      "We will need to do something about the moon."
 
-     The last line. He has learned nothing and the logic doesn't
-     stop — it just moves up a scale. Read it exactly like line 2:
-     a small administrative note to himself. No wink. It is
-     funnier and worse if he means it.
+     The last line, and it now plays over the instrument taking
+     the other side — he files an intention about the moon while,
+     behind him and unseen, the thing commits. He has learned
+     nothing and the logic doesn't stop, it just moves up a scale.
+     Read it exactly like line 2: a small administrative note to
+     himself. No wink. It is funnier and worse if he means it.
 
    [2:54.4]  --- SILENCE ---
-   Title card. Clean.
+   Title card: MOONSHOT. He named it a problem; the film names it
+   an attempt. Clean.
 
