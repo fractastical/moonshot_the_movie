@@ -139,7 +139,7 @@ Wiring a finished shot into the film is a one-line change: swap that card's
 
 ## P0 — do these first
 
-### 1. YOU HAVE EXCEEDED YOUR ENERGY QUOTA
+### 1. YOU HAVE USED TOO MUCH POWER
 
 | | |
 |---|---|
@@ -148,19 +148,20 @@ Wiring a finished shot into the film is a one-line change: swap that card's
 | vibe | 5 → 6 (flatline) |
 
 This is the film's conflict, stated in the first twenty seconds, before there is
-a hero or a party to lose. The sentence does the work: the same word covers
-electricity and vitality, and the authority is counting both. It is paid off at
-1:58 when the same authority puts a hand on a breaker.
+a hero or a party to lose — and stated in words a ten-year-old reads off the wall
+at a glance, which is the only reason the rest of the film is followable. It is
+paid off at 1:58 when the same authority puts a hand on a breaker, and again at
+2:46 when the machine's own readout says TOO MUCH about them.
 
 The second line of the readout is the one that matters and it is easy to lose. The
-cap is not a safety measure, it is an audit — the great thing was achieved, the
-ledger was closed, and what is left gets billed at what a finished world costs.
+cap is not a safety measure, it is a bill — the great thing was achieved, the
+account was closed, and what is left gets charged at what a finished world costs.
 That is the whole antagonist in one line of amber text.
 
 ```
 Static macro shot of a wall-mounted domestic utility panel in a dark, empty
-hallway at night. A small amber LCD screen on the panel reads "YOU HAVE EXCEEDED
-YOUR ENERGY QUOTA / ALLOCATION SET TO COMPLETED-WORLD BASELINE". A relay clicks
+hallway at night. A small amber LCD screen on the panel reads "YOU HAVE USED TOO
+MUCH POWER / NEW LIMIT: WHAT A FINISHED WORLD NEEDS". A relay clicks
 inside the panel and the hallway lights behind it step down one level, dimmer. No
 people in shot. Locked-off camera, no movement. Available light only, heavy film
 grain, near-monochrome with the amber display as the only colour in frame. 1990s
@@ -177,7 +178,7 @@ under a door, or on a wall-mounted meter in a stairwell.
 
 ---
 
-### 1b. THEIR ALLOCATION WAS CUT
+### 1b. THEIR POWER WAS CUT
 
 | | |
 |---|---|
@@ -402,18 +403,22 @@ VibeMap and real telemetry. No generator, no shoot, no cost:
 
 | slot | length | card |
 |---|---|---|
-| 0:19.5 | 5.0s | NOTHING OUTSTANDING — the index at 0.03%, vibe at 6, read as a success |
+| 0:19.5 | 5.0s | NOTHING LEFT TO DO — party level 0.03%, vibe at 6, read as a success |
 | 1:01.9 | 3.7s | SIGNAL STRENGTH — the meter climbing 28 → 43 |
 | 1:45.3 | 4.0s | THE NUMBER FALLS — 39 / 25 / 16 as the caps bite |
-| 1:49.3 | 3.0s | THE INSTRUMENT DISAGREES — a full room reading 16, and the third party's first refusal |
+| 1:49.3 | 3.0s | THE MACHINE DISAGREES — a full room reading 16, and the third party's first refusal |
 | 2:24.4 | 5.0s | THE TURN — 0 → 1 → 2, the map relighting |
-| 2:46.4 | 4.0s | THE INSTRUMENT SIGNS ON — a second trace that leads the first, OBSERVER → PARTICIPANT |
+| 2:46.4 | 4.0s | THE MACHINE PICKS A SIDE — a second trace that leads the first, WATCHING → JOINING IN |
 | 2:54.4 | 5.6s | MOONSHOT — title and the HYPERSTITION lockup |
 
-Two of those are load-bearing rather than decorative. **THE INSTRUMENT DISAGREES**
-is where the readout declines to corroborate him, and **THE INSTRUMENT SIGNS ON**
-is where it takes the other side — the film's third party, which has no voice and
-does all of its arguing in the chrome. Treat them as performances, not as titles.
+Two of those are load-bearing rather than decorative. **THE MACHINE DISAGREES**
+is where the readout refuses to back him up, and **THE MACHINE PICKS A SIDE** is
+where it goes over to the other one — the film's third party, which has no voice
+and does all of its arguing in the chrome. Treat them as performances, not titles.
+
+Every word on these cards is checked by `tools/video/reading_level.py`, which
+reads the strings out of `panels.py` and fails the build if the console starts
+talking like a console. Same for the spoken lines in `docs/vo-script.md`.
 
 ---
 

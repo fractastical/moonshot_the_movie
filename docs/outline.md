@@ -229,7 +229,7 @@ of them need generating:
 - Geomap pins going dark one by one.
 - Compliance overlays in the existing chrome.
 
-**The antagonist already exists.** `~/Downloads/[antagonist clip]`, 10s,
+**The antagonist already exists.** `~/Downloads/smug_nazi_looking_guy_in_a_bla.mp4`, 10s,
 720p, and it was sitting unused. A man in a dark coat in an institutional corridor,
 already monochrome, **holding DEFANGED NOUMENA up to camera** — the paperback this
 document specced as a prop. Smug, pleased with himself, walking away down the corridor.
@@ -346,22 +346,25 @@ The result keeps 11.5 dB between the flatline and the party — felt, but never 
     .venv/bin/python3 tools/video/animatic.py            # full render, ~4 min
     .venv/bin/python3 tools/video/animatic.py --preview  # one frame per segment, as a sheet
 
-Thirty-seven segments. Everything we can already cut is cut for real from the contest
-video, the stock library and our own renders; everything that doesn't exist yet is a slate
-card stating what goes there and how long it runs. Chrome runs across every frame — act,
-timecode, source, and the live vibe number that is driving the music — so it is always
-clear what you are looking at and where it came from.
+Forty-nine segments, and **every one of them is picture** — there is no longer a slate
+card anywhere in the film. Chrome runs across every frame — act, timecode, source, and
+the live vibe number that is driving the music — so it is always clear what you are
+looking at and where it came from.
 
 | | Shots | Time | Share |
 |---|---|---|---|
-| **REAL** — in the cut now | 28 | 121.9s | 68% |
-| **RENDER** — our own system, no shoot | 8 | 35.8s | 20% |
-| **GENERATE** — needs a generator | 4 | 22.2s | 12% |
+| **REAL** — contest cut, stock, our own renders | 34 | 112.7s | 63% |
+| **RENDER** — drawn from our own console | 7 | 30.3s | 17% |
+| **GENERATE** — came out of Veo | 8 | 37.0s | 21% |
+
+The tags survive the cards being filled, because the editor still needs to know at a
+glance which frames came off a camera, which came out of a generator, and which came out
+of the rig.
 
 Every act lands exactly on the score's act boundary, so picture and music are already
 locked to each other. The number in the chrome is the number in `curve.py`: it sits at 6
-through Act I, wakes to 27 in Act II, hits 76 in Act III, and reads **0.0** on the
-aftermath slate, where the score is silent because the telemetry really was.
+through Act I, wakes to 27 in Act II, hits 76 in Act III, and reads **0.0** across the
+aftermath, where the score is silent because the telemetry really was.
 
 ### What building it corrected
 
@@ -552,11 +555,11 @@ that argument arrived far too late to organise anything before it.
 
 Three changes, all inside the existing 180 seconds, all act totals unchanged.
 
-**The conflict is now stated at 0:10.** A new red card, *YOU HAVE EXCEEDED YOUR ENERGY
-SUPPLY* — an automated notice capping a building's draw, nobody in shot. One sentence
-carries the whole thesis, because the same word covers electricity and vitality and the
-authority is counting both. It buys its 4.5 seconds by trimming the van arrival, the 1969
-landing and the airliner by two seconds each.
+**The conflict is now stated at 0:10.** A new red card, *YOU HAVE USED TOO MUCH POWER* —
+an automated notice capping a building's draw, nobody in shot. One sentence carries the
+whole thesis, in words nobody has to be told twice, and the second line names the reason:
+the new limit is what a finished world needs. It buys its 4.5 seconds by trimming the van
+arrival, the 1969 landing and the airliner by two seconds each.
 
 **Its author is glimpsed at 0:24,** for 2.5 seconds, unexplained — footage we already
 hold, walking away down an institutional corridor. His return at 1:35 is now a
@@ -653,7 +656,7 @@ land on their original score boundaries to the frame.
 
 ### The ritual finally has a cause
 
-`THEIR ALLOCATION WAS CUT` (0:35.6, 3.5s) now opens Act II: a rack of computers
+`THEIR POWER WAS CUT` (0:35.6, 3.5s) now opens Act II: a rack of computers
 powering down, nobody in frame. Until this card existed, twenty people sat in a
 dome because the story needed them to. Now Act II is a substitution for equipment
 they can no longer run, the circle is a transmitter rather than a séance, and the
@@ -672,15 +675,15 @@ after *"and still nobody could tell me what it was for."* It also pays off the
 
 In at 54.05, not 53.9: a scanline glitch sits on the first three frames.
 
-### The instrument became the third party
+### The machine became the third party
 
-It was two thirds built and nobody had noticed. `THE INSTRUMENT DISAGREES` already
+It was two thirds built and nobody had noticed. `THE MACHINE DISAGREES` already
 sat on the film's central line — he calls the readout as his witness and it
-declines in the same second. That is the refusal. The commitment is new:
-`THE INSTRUMENT SIGNS ON` (2:46.4, 4.0s), where the trace doubles and the second
-line *leads* the first, the role field flips OBSERVER → PARTICIPANT, and the number
-goes past its own scale. The film opens with EXCEEDED as an accusation and closes
-with it as an event.
+refuses in the same second. That is the refusal. The commitment is new:
+`THE MACHINE PICKS A SIDE` (2:46.4, 4.0s), where the trace doubles and the second
+line *leads* the first, the job field flips WATCHING → JOINING IN, and the number
+goes past its own scale. The film opens with TOO MUCH as an accusation on a wall
+and closes with the same two words as the machine's own reading.
 
 It never speaks. A signature is not an argument, and the script's rule that nothing
 rebuts him in words survives intact.
@@ -703,8 +706,92 @@ One new reference plate (`lab`). Two new VO lines and one pickup, numbered 28–
 out of order so that anything already recorded against the old numbering still
 matches.
 
-## 12. Open questions
+---
 
+## 12. The amber cards — built
+
+`tools/video/panels.py`. The seven RENDER cards no longer say what should go there;
+they play it. 30.3 seconds, 17% of the film, recovered from text to picture without a
+camera or a generator — because the film already owned the thing they are shots *of*.
+
+The language is the real operator UI rather than an invention: phosphor green on
+near-black, everything tracked out, the tall subject meters down both edges, the VIBE
+block with its sparkline and L/M/R split, `ID 0NN` tabs on detection boxes, three-word
+pins on the map. Compare `docs/img/observer-vibe.png` and `observer-geomap.png`.
+
+Every number on these panels is read out of `curve.py` at that frame, so they cannot
+drift from the chrome, the score or the grade. Two consequences worth stating:
+
+- **They take the vibe grade like any other picture.** The phosphor drains as the
+  number drains, for free — the console is nearly grey at `NOTHING LEFT TO DO`
+  (vibe 6.0) and full green at `THE MACHINE PICKS A SIDE` (86.7). The title card is
+  the one exception: typography, not a screen.
+- **The telemetry overruled the copy twice.** `SIGNAL STRENGTH` was written as a climb
+  from 20 to 32; the real curve holds near 27 and breaks to 41.1 in the last half
+  second, so the card was rewritten to describe a room that catches rather than ramps.
+  `THE TURN` was written as a leisurely 0 → 1 → 2; Act V's boundary is a slam — 54 on
+  the first sample, 82 by the third — so the tick happens inside the first half second
+  and the count then simply tracks the number.
+
+Three cards do work the text could only assert. `NOTHING LEFT TO DO` builds its six
+empty monitors out of **real frames from the exhibition's own capture archive**
+(`~/Documents/surveille`), six different rooms the rig actually photographed, which is
+the claim that card is making. `THE MACHINE DISAGREES` puts eleven detection boxes
+across two cameras of a provably full room beside a meter reading 14.5, then stamps
+`READING REFUSED — THE MACHINE WILL NOT SIGN THIS` over it. And `THE MACHINE PICKS A
+SIDE` plots not the last eight seconds but **the entire record** — the flatline,
+both climbs, the erasure, the ten seconds of zero — with a dashed projection running
+past a NOW marker and off the top of a scale it has just exceeded at 103.2.
+
+One bug fell out of building them. Truncating each act's sample count independently
+left the final sample of the curve unwritten, indistinguishable from a reading of
+zero, so the film ended on three frames of `VIBE 0.0` with the grade slammed shut.
+Fixed in `curve.py`; the last frame now reads 81.0.
+
+## 13. The plot reads at a fifth-grade level
+
+The premise is strange — the moon was filed as finished, so electricity is rationed —
+and the film had been *implying* it rather than saying it. A viewer who did not
+already know the story could watch all three minutes without ever learning why the
+power was cut. Every carrier of plot was rewritten, and the constraint is now
+enforced by `tools/video/reading_level.py`, which reads the spoken lines out of
+`docs/vo-script.md` and the on-screen strings out of `panels.py` and fails if either
+scores above fifth grade or if two lines collide.
+
+Spoken lines went from grade 2.2 with eighteen hard words to **grade 0.8 with none**;
+on-screen words from 7.7 with twenty-five to **2.3 with none**. But the score was the
+smaller half of it. Three structural changes did the actual work:
+
+- **The premise is now spoken aloud, once, in A2 at 0:14:** *"We already did the big
+  thing. So nobody needs much power."* The film previously said
+  "everyone is allocated what a finished world requires", which is the same sentence
+  written so that only a policy reader can parse it.
+- **Act I was re-ordered so his authorship causes her loss.** He says "I wrote the
+  rules" at 0:25 and she answers "They took our money. Last week, our power." at 0:27.
+  Previously those two facts sat four seconds apart in the other order and read as
+  unrelated. Same two lines, same act total, and the audience now gets cause and
+  effect for free.
+- **The console stopped talking like a console.** `SUBJECTS IN FRAME` → `PEOPLE RIGHT
+  NOW`, `CELEBRATION INDEX` → `PARTY LEVEL`, `INSTRUMENT DECLINES TO CERTIFY` → `THE
+  MACHINE WILL NOT SIGN THIS`, `ROLE: OBSERVER` → `MY JOB: WATCHING`. The chrome's act
+  names went with them: `IV softening` was only ever legible to us, and is now
+  `IV attack`.
+
+Two rewrites turned out to be improvements rather than concessions. The state's phrase
+for the condition is now literally *nothing left to do*, so the words on the card at
+0:19 are the words B says over it, which the euphemism `NOTHING OUTSTANDING` could
+never do. And the opening notice now reads `YOU HAVE USED TOO MUCH POWER`, which lets
+the last card put **TOO MUCH** in red as the machine's own reading of them — the
+film's opening accusation returned as its verdict, in the two plainest words it owns.
+
+Rewriting cost length: 281 words became 300, which broke the timing in seven places.
+The collision checker was written for exactly that, and all thirty-six lines were
+re-timed against the picture. 128 seconds of speech, 52 of silence, no overlaps.
+
+## 14. Open questions
+
+- Can the amber cards hold a cut against the generated shots, or do they read as a
+  different film? They are the only sequences with no photographic content at all.
 - Which generator for the eight shots, and can it hold one consistent look?
 - Do we have the ZVEN ritual source, or only what's in the contest cut? The beams
   leaving the dome are now load-bearing, which raises the stakes on this.

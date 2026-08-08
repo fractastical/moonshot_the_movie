@@ -6,43 +6,47 @@ slot and leave handles. Veo 3.x has no negative prompt field, so the
 avoid-list is folded into each prompt below.
 
 ------------------------------------------------------------------------
-1. YOU HAVE EXCEEDED YOUR ENERGY QUOTA
+1. YOU HAVE USED TOO MUCH POWER
    slot 0:10.0  ·  4.5s  ·  vibe 5 to 6  ·  ask for 8s
 ------------------------------------------------------------------------
 
-The conflict before the film has a hero. Not a safety measure — an
-audit. The great thing was achieved, the ledger was closed, and what
-remains is a world billed for what a finished world costs. One word
-covers electricity and vitality and the authority is counting both.
+The conflict before the film has a hero, stated in words a child can
+read off the wall. Not a safety measure — a bill. The great thing was
+achieved, the account was closed, and what is left is a world charged
+for what a finished world costs. The same two words come back at 2:46 as
+the machine's own reading.
 
 PROMPT:
 
-Static macro on a wall-mounted domestic utility panel in a dark empty
-hallway at night. Small amber LCD reads YOU HAVE EXCEEDED YOUR ENERGY
-QUOTA / ALLOCATION SET TO COMPLETED-WORLD BASELINE. A relay clicks and
-the hallway lights step down one level. No people, no camera move.
-Available light, heavy grain, near-monochrome with only the amber
-display in colour. Shot on a degraded consumer camera: heavy film grain,
-soft crushed blacks, halation around any bright source, slightly soft
-focus, slightly underexposed. Almost entirely monochrome — colour
-appears only where named above. Available light only, no film lighting.
-The camera is locked off on a tripod or handheld by someone standing
-still; it does not travel. Everything in frame is worn and ordinary:
-concrete, steel, chipped paint, cheap fabric. Observational documentary
-footage, nobody aware of the camera, nobody posing. Real unglamorous
-people. No text, captions, logos or watermarks anywhere in frame. No
-uniforms, no police, no military, no weapons.
+Static macro, filling the frame, on the amber LCD of a wall-mounted
+domestic utility panel in a dark empty hallway at night. The display
+shows two lines of blocky dot-matrix text. The first line, large and
+centred, reads: YOU HAVE USED TOO MUCH POWER. Beneath it, in smaller
+text, a second line reads: NEW LIMIT: WHAT A FINISHED WORLD NEEDS. Both
+lines stay on screen for the whole shot. A relay clicks and the hallway
+lights step down one level. No people, no camera move. Available light,
+heavy grain, near-monochrome with only the amber display in colour. Shot
+on a degraded consumer camera: heavy film grain, soft crushed blacks,
+halation around any bright source, slightly soft focus, slightly
+underexposed. Almost entirely monochrome — colour appears only where
+named above. Available light only, no film lighting. The camera is
+locked off on a tripod or handheld by someone standing still; it does
+not travel. Everything in frame is worn and ordinary: concrete, steel,
+chipped paint, cheap fabric. Observational documentary footage, nobody
+aware of the camera, nobody posing. Real unglamorous people. No text,
+captions, logos or watermarks anywhere in frame. No uniforms, no police,
+no military, no weapons.
 
 
 ------------------------------------------------------------------------
-2. THEIR ALLOCATION WAS CUT
+2. THEIR POWER WAS CUT
    slot 0:35.6  ·  3.5s  ·  vibe 10 to 11  ·  ask for 8s
 ------------------------------------------------------------------------
 
-The inciting incident, and it is an invoice. Racks powering down mid-
-run, work abandoned in place. What follows is not mysticism, it is the
-same experiment on the only supply left unmetered.   V.O.: "We reduced
-their allocation. I'm told they took it personally."
+The inciting incident, and it is a bill. Racks powering down mid-run,
+work abandoned in place. What follows is not mysticism, it is the same
+experiment run on the only supply nobody is charging for.   V.O.: "We
+have no power. So we have no machines."
 
 PROMPT:
 
@@ -123,8 +127,9 @@ lighting. The camera is locked off on a tripod or handheld by someone
 standing still; it does not travel. Everything in frame is worn and
 ordinary: concrete, steel, chipped paint, cheap fabric. Observational
 documentary footage, nobody aware of the camera, nobody posing. Real
-unglamorous people. No text, captions, logos or watermarks anywhere in
-frame. No uniforms, no police, no military, no weapons.
+unglamorous people. The only text anywhere in frame is the readout
+described above, in its own display, correctly spelled and sharp enough
+to read. No captions, subtitles, logos or watermarks.
 
 
 ------------------------------------------------------------------------
@@ -152,8 +157,7 @@ locked off on a tripod or handheld by someone standing still; it does
 not travel. Everything in frame is worn and ordinary: concrete, steel,
 chipped paint, cheap fabric. Observational documentary footage, nobody
 aware of the camera, nobody posing. Real unglamorous people. No text,
-captions, logos or watermarks anywhere in frame. No uniforms, no police,
-no military, no weapons.
+captions, logos or watermarks anywhere in frame.
 
 
 ------------------------------------------------------------------------
@@ -210,8 +214,7 @@ handheld by someone standing still; it does not travel. Everything in
 frame is worn and ordinary: concrete, steel, chipped paint, cheap
 fabric. Observational documentary footage, nobody aware of the camera,
 nobody posing. Real unglamorous people. No text, captions, logos or
-watermarks anywhere in frame. No uniforms, no police, no military, no
-weapons.
+watermarks anywhere in frame.
 
 
 ------------------------------------------------------------------------

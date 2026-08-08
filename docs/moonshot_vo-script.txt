@@ -1,284 +1,358 @@
 MOONSHOT — voice-over recording script
 ======================================================================
 
-30 lines, ~242 words, three minutes.
+36 lines, ~299 words, three minutes.
 Smug, not jackbooted. Warm, unhurried, certain, never menacing.
 48kHz 24-bit mono WAV, dry, one file per line, three reads each.
 
 
 ======================================================================
-ACT I — THE FLATLINE   (0:00–0:35)
+ACT I — THE CLOSED FILE   (0:00–0:35)
 ======================================================================
 
-  1. [0:02.0]
+ A1. [0:01.5]
 
-     "You will have noticed that it is quieter now."
+     "It is quiet now. We made it quiet."
 
-     Opening the film. Almost pleasant.
+     Opening the film. Almost pleasant, and he takes the credit in
+     the second sentence — the audience knows who did this before
+     they know what it is. Past tense from the first word: he is
+     already on the other side of it.
 
-  2. [0:11.0]
+ B1. [0:05.5]
 
-     "Everyone is allocated what they need."
+     "They play the moon landing all day. To prove it is
+     over."
 
-     Flat. A statement of policy, not a defence.
+     Over 1969 on a CRT nobody watches. She is reading the
+     official meaning off an image, flatly, the way you would read
+     a plaque. Sets up the last line of the film.
 
-  3. [0:15.5]
+   [0:10.5–0:14.5]  --- SILENCE ---
+   The power notice. The panel reads itself; do not talk over it.
 
-     "This is what a safe evening looks like."
+ A2. [0:14.9]
 
-     Over an empty surveillance wall. He means it.
+     "We already did the big thing. So nobody needs much
+     power."
 
-  4. [0:20.5]
+     The whole argument of the film, in eleven plain words. Flat —
+     a statement of policy, not a defence. Everything he does
+     later follows from this one sentence, so it has to be
+     completely clear and completely calm.
 
-     "Nobody is hurt. Nobody is missing. Nobody is over-
-     stimulated."
+ B2. [0:19.8]
 
-     Three beats, equal weight. The third should land as naturally
-     as the first two — that's the joke, and he doesn't know it's
-     one.
+     "Nothing left to do, they say. We call it the Nothing."
 
-  5. [0:25.0]
+     The official phrase is on the screen behind her, word for
+     word, as she says it. First half a quotation held at arm's
+     length, second half plain speech. Do not weight "the
+     Nothing"; it is just what people inside it call it.
 
-     "I wrote the paper on it."
+ A3. [0:25.2]
 
-     He is on screen here. Not boastful. A small, satisfied fact.
+     "I wrote the rules."
 
- 30. [0:28.0]
+     He is on screen. Not boastful. A small, satisfied fact — and
+     it tells the audience he is not a guard, he is the author.
 
-     "It was not my idea. It was everyone's."
+ B3. [0:27.5]
 
-     New. Read as modesty and nothing else. It is the only line
-     that tells you he is not in charge of the thing he speaks
-     for, and it must not sound like a confession.
+     "They took our money. Last week, our power."
 
-  6. [0:31.5]
+     Straight after he claims authorship, so his sentence causes
+     hers. "Last week" is doing the work — this is not history, it
+     is happening now and it is speeding up. No self-pity. Two
+     facts in the order they arrived.
 
-     "We used to look up at the same thing. Once."
+ B4. [0:31.3]
 
-     Note changed. Not wistful — this is his proof. Over an
-     airliner crossing the moon while nobody looks up. "Once" is
-     the whole argument: it was done, it was logged, and that is
-     why it does not need doing again. A trace of warmth is fine.
-     Regret is not.
+     "But the moon still pulls the sea. For free."
 
-
-======================================================================
-ACT II — THE RITUAL   (0:35–1:05)
-======================================================================
-
- 28. [0:36.3]
-
-     "We reduced their allocation. I'm told they took it
-     personally."
-
-     New, and it is the film's inciting incident. Over a
-     laboratory powering down. He caused everything that follows
-     and files it as a budget footnote. Absolutely no weight on it
-     — the lighter this lands, the worse he is.
-
-  7. [0:39.6]
-
-     "They still gather. I find that touching."
-
-     Genuinely touched. No irony on "touching". *(moved from
-     0:36.5)*
-
-  8. [0:43.6]
-
-     "They bring instruments now. They measure themselves."
-
-     First flicker of the thesis. Slight puzzlement. *(moved from
-     0:41.0)*
-
-  9. [0:47.0]
-
-     "They believe that if enough of them feel it at the same
-     moment, something happens."
-
-     Long line, plenty of room. Let it be a little fond.
-
- 10. [0:55.0]
-
-     "Something does happen. That was never in dispute."
-
-     Important: he concedes this completely. No sarcasm — he is
-     not disputing that it works.
-
- 11. [1:01.9]
-
-     "And then they do the fatal thing. They score it."
-
-     The hinge of his case, and he is wrong in a way he cannot
-     see: he thinks he is naming a symptom, and it is a body
-     assembling. Play the diagnosis with total confidence. "Fatal"
-     said lightly, almost regretfully.
+     The hook. Over an airliner crossing the moon while nobody
+     looks up. "But" is load-bearing: it is the first push back in
+     the film. She has turned a closed file into a free power
+     source. An engineer spotting something on a balance sheet,
+     not poetry. The flatter it is read, the bigger it gets.
 
 
 ======================================================================
-ACT III — THE SIGNAL SPREADS   (1:05–1:35)
+ACT II — THE MOONSHOT   (0:35–1:05)
 ======================================================================
 
- 12. [1:06.0]
+ B5. [0:36.3]
 
-     "Look at them. Genuinely — look."
+     "We have no power. So we have no machines."
 
-     An invitation. He thinks he's showing you evidence.
+     Over the lab going dark — his budget footnote, from the other
+     end. Present tense, matter of fact. A problem to be solved,
+     not a grievance.
 
-   [1:10.3–1:13.5]  --- SILENCE ---
-   The transformation. Nothing over it.
+ B6. [0:40.6]
 
- 13. [1:13.8]
+     "So we are building a machine out of people."
 
-     "Whatever that is, they made it themselves."
+     The pivot of the film, and the "so" makes it a consequence
+     rather than an idea. Say it as though it were the obvious
+     next step, because to her it is.
 
-     A concession he doesn't notice he's making.
+ B7. [0:44.8]
 
- 14. [1:22.2]
+     "Breathing. Light. Sound. Three hundred people moving as
+     one."
 
-     "Ninety-six decibels. In a residential district."
+     A parts list. Technical, unhurried, quietly pleased with how
+     neat it is. No mysticism whatsoever.
 
-     Purely administrative. This is the coldest line in the film
-     and it must be read as the dullest.
+ B8. [0:49.0]
 
- 29. [1:26.5]
+     "Together they make a signal. And we know where to point
+     it."
 
-     "They are not playing to the room. I checked the angle."
+     The ritual as engineering. Even and explanatory. Slightly
+     withheld on the second half — the beams answer it four
+     seconds later.
 
-     New. The reveal, delivered by a man who measures things, as
-     one more measurement. He has worked out that the beams point
-     somewhere and has not yet worked out what that means. No
-     emphasis on "angle" — he does not know he is giving away the
-     plot.
+ B9. [0:54.3]
 
- 15. [1:28.2]
+     "The number has to stay above eighty. That is the whole
+     plan."
 
-     "By morning it was in four cities."
+     The most load-bearing line in the film. It hands the audience
+     the scoreboard, and it names the thing in the corner of the
+     frame so they know what to watch. Read it as a spec, not a
+     challenge — she is stating a target, not making a vow.
+     Everything after this is suspense only because this line is
+     clear, so give it air.
 
-     Something has changed. Not alarm — attention.
+ A4. [0:59.6]
 
- 16. [1:31.0]
+     "They still get together. I think that is sweet."
 
-     "And still nobody could tell me what it was for."
+     Genuinely warm. No irony on "sweet". He has just heard the
+     entire plan and understood none of it.
 
-     The first crack. Faint irritation, quickly controlled. In a
-     world he considers finished, nothing *can* be for anything —
-     so to him this is a real question and not a rhetorical one.
-     The moon lights up four seconds after he asks it.
+B10. [1:03.8]
+
+     "Something is answering."
+
+     Over the readout waking, on the SIGNAL STRENGTH card. Three
+     words. The first hint that anybody is out there — reported as
+     a result, not a revelation.
 
 
 ======================================================================
-ACT IV — THE SOFTENING   (1:35–2:24)
+ACT III — IT WORKS, AND HE ARRIVES   (1:05–1:35)
 ======================================================================
 
- 17. [1:35.7]
+ A5. [1:06.0]
 
-     "So we made a decision."
+     "Look at them. Really — look."
 
-     He is on screen. Unremarkable, like minuting a meeting.
+     An invitation. He thinks he is showing you evidence.
 
- 18. [1:38.3]
+   [1:09.1–1:13.5]  --- SILENCE ---
+   Blood moon, then the transformation. Nothing over it.
 
-     "Nobody was arrested. I would like that on the record."
+B11. [1:14.0]
 
-     Slight pride. He thinks this is the humane part, and by his
-     lights it is.
+     "It is changing us first."
 
- 19. [1:42.7]
+     This is what explains the beasts. An observation about a side
+     effect she had not expected and does not regret. Three words,
+     and the picture has just shown you what she means.
 
-     "We were like you. We ran hot."
+B12. [1:17.5]
 
-     Warmest line in the film. On screen he is holding up his own
-     book. Almost affectionate — he is offering them his biography
-     as proof he understands.
+     "That is the cost. You do not stay the same shape."
 
- 20. [1:45.5]
+     Flat, almost a technical footnote. The most frightening line
+     she has, and only if it is read with no drama at all.
 
-     "We only asked them to bring it down."
+ A6. [1:22.9]
 
-     Reasonable. Wounded, even, that this became a fight.
+     "Ninety-six decibels. Over the limit."
 
- 21. [1:49.4]
+     Purely administrative, and it states the rule he is about to
+     enforce. The coldest line in the film and it must be the
+     dullest.
 
-     "You are not enjoying this. Your own instrument agrees."
+B13. [1:26.0]
 
-     The film's central line. Said kindly — as a diagnosis being
-     broken gently to a patient. It is devastating precisely
-     because it isn't cruel.
+     "Seventy-nine point nine. Hold it there."
 
- 22. [1:54.0]
+     The number on screen reads 79.9 as she says it, and it never
+     gets higher before the attack. She is one tenth short and she
+     does not know that is as close as they will come. Do not play
+     the disappointment — she still thinks they will get there.
+     The audience does the ache.
 
-     "They kept dancing. In the dark. Which we had not
-     modelled."
+B14. [1:29.4]
 
-     The one place the mask slips, and the sentence where his
-     entire framework fails. He modelled them as consumers of
-     electricity; they are not, which is the whole point of the
-     ritual, so he has cut the power to a machine that does not
-     run on power. The first two sentences are observation. The
-     third is a man reaching for procedural language to cover a
-     hole in his accounting. Do not editorialise — just let the
-     last clause sit slightly apart.
+     "Someone at the door is measuring us."
 
- 23. [1:58.5]
+     The two halves of the film touch for the first time. Not
+     alarm — she has noticed something and is reporting it while
+     she works. The audience is far more worried than she is.
 
-     "So we removed the supply."
+B15. [1:33.3]
 
-     On the shot of a hand pulling the breaker. Absolutely
-     neutral. The euphemism does the work; do not lean on it.
+     "Not a reflection. An answer."
 
- 24. [2:02.0]
+     Over the moon going blood-orange. The payoff of the plan.
+     Four words, the second pair landing on the cut. Do not raise
+     the voice; the picture is shouting.
 
-     "And the record of it."
 
-     Quieter. An afterthought, which is the point — the deletion
-     matters less to him than the decision did.
+======================================================================
+ACT IV — THE SQUEEZE   (1:35–2:24)
+======================================================================
 
-   [2:06.8]  --- SILENCE ---
-   He salutes and walks out on screen. No line.
+ A7. [1:36.6]
 
- 25. [2:09.2]
+     "And no one could tell me what it was for."
 
-     "It is not cruelty. It is arithmetic."
+     He was told, and did not listen — the audience has known
+     since 0:54. On screen at the peak. Faint irritation, quickly
+     controlled. In a finished world nothing *can* be for
+     anything, so to him the question is sincere.
 
-     His summation, over the screens dying. Calm and, to him,
-     self-evidently true — and it is true, which is the
-     confession. Arithmetic against a closed ledger is exactly
-     what he is.
+ A8. [1:41.6]
 
-   [2:14.9–2:24.3]  --- SILENCE ---
-   The residue and the aftermath. Nine and a half seconds with no
-   voice and almost no score. Do not fill this.
+     "We were like you once. We burned bright too."
+
+     Warmest line in the film. He is holding up his own book,
+     offering his own life as proof he understands.
+
+B16. [1:45.8]
+
+     "They are not stopping the party. Just the number."
+
+     Over the readout being forced down. The thriller line, and
+     now it says exactly what the attack is — he is not banning
+     anything, he is deleting the evidence. Cold and clear, and
+     slightly too late.
+
+ A9. [1:50.0]
+
+     "You are not having fun. Your own machine says so."
+
+     Said kindly, the way a doctor breaks bad news gently.
+     Devastating precisely because it is not cruel. Opens on its
+     card.
+
+A10. [1:54.6]
+
+     "They kept dancing in the dark. We did not plan for
+     that."
+
+     The one place the mask slips. He treated them as people who
+     use electricity; they are not, which is the entire point of
+     the ritual — he has cut the power to a machine that does not
+     run on power. First sentence an observation, second a man
+     reaching for flat official language to cover a hole in his
+     sums. Let the last sentence sit slightly apart.
+
+B17. [1:59.9]
+
+     "It is coming back. Do not stop."
+
+     The cruellest placement in the film. The number really is
+     climbing — 52 and rising — and she is urging the room on
+     about one second before the breaker kills it. Play it as
+     work, not triumph: she is calling out a reading and giving an
+     instruction. She has no idea.
+
+A11. [2:03.3]
+
+     "So we cut the power."
+
+     Over the aftermath of the breaker. Absolutely neutral, and it
+     answers her line directly without either of them knowing.
+     Plain words make it worse, not softer.
+
+A12. [2:09.3]
+
+     "It is not cruel. It is just math."
+
+     Over the screens dying. Calm and, to him, obviously true —
+     and it is true, which is the confession.
+
+B18. [2:15.0]
+
+     "Zero. We think we killed it."
+
+     The screen reads 0.0. The bottom of the film, and the only
+     line where she is not quite in control — audible as a slight
+     flattening, nothing more. Note the tense: she still does not
+     know.
+
+   [2:19.4–2:24.4]  --- SILENCE ---
+   The aftermath. Five seconds, no voice, almost no score. Do not
+   fill this.
 
 
 ======================================================================
 ACT V — THE ANSWER   (2:24–3:00)
 ======================================================================
 
- 26. [2:24.5]
+A13. [2:24.8]
 
      "There was nothing left. I checked."
 
-     Said with total confidence — and the counter starts climbing
-     off zero under it. He is contradicted inside his own
-     sentence.
+     The number crosses eighty for the first time in the entire
+     film four tenths of a second before he says this. Total
+     confidence. He is contradicted by the corner of his own
+     frame.
 
-   [2:29–2:47]  --- SILENCE ---
-   Eighteen seconds: the moon with an eye, the lunar room, the
-   moon dance. The film answers him with pictures and music.
-   Nothing over it.
+B19. [2:29.8]
 
- 27. [2:47.5]
+     "It did not die. It just does not need us now."
+
+     Over the moon with an eye. It is alive and it is on its own.
+     Quiet — the first time she sounds like anything other than an
+     engineer.
+
+   [2:34.4–2:40.4]  --- SILENCE ---
+   The lunar room. The film answers with pictures.
+
+B20. [2:40.7]
+
+     "Over eighty. It is holding."
+
+     The screen reads 85.0. The target from 0:54, cleared — the
+     line the whole film has been waiting for, and it should be
+     read as plainly as the reading at 1:26. The audience supplies
+     the elation.
+
+B21. [2:43.3]
+
+     "We woke something up. And it came back for us."
+
+     Over the moon dance, as the group joins. The bond — the
+     actual moonshot. Not triumph. Closer to being met.
+
+A14. [2:47.9]
 
      "We will need to do something about the moon."
 
-     The last line, and it now plays over the instrument taking
-     the other side — he files an intention about the moon while,
-     behind him and unseen, the thing commits. He has learned
-     nothing and the logic doesn't stop, it just moves up a scale.
-     Read it exactly like line 2: a small administrative note to
-     himself. No wink. It is funnier and worse if he means it.
+     His last line, and he has learned nothing — the logic does
+     not stop, it moves up a scale. It lands *inside* the card
+     where the machine picks a side, so he files a note about the
+     moon while the thing commits behind him. Read exactly like
+     A2: a small administrative note to himself. No wink. Funnier
+     and worse if he means it.
 
-   [2:54.4]  --- SILENCE ---
-   Title card: MOONSHOT. He named it a problem; the film names it
-   an attempt. Clean.
+   [2:51.7–2:55.1]  --- SILENCE ---
+   The rest of the sign-on, and the van. The machine changing
+   sides is a signature, not an argument; nobody narrates it.
+
+B22. [2:55.1]
+
+     "They said it was behind us. It is ahead of us."
+
+     The last line of the film, over the title, answering B1 word
+     for word. Flat and certain. Not a rallying cry — a correction
+     to the record.
 
