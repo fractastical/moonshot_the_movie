@@ -241,8 +241,8 @@ beat. He gets one line and it is condescending.*
 |---|---|---|---|
 | B5 | 0:36.3 | "We have no power. So we have no machines." | Over the lab going dark — his budget footnote, from the other end. Present tense, matter of fact. A problem to be solved, not a grievance. |
 | B6 | 0:40.6 | "So we are building a machine out of people." | The pivot of the film, and the "so" makes it a consequence rather than an idea. Say it as though it were the obvious next step, because to her it is. |
-| B7 | 0:44.8 | "Breathing. Light. Sound. Three hundred people moving as one." | A parts list. Technical, unhurried, quietly pleased with how neat it is. No mysticism whatsoever. |
-| B8 | 0:49.0 | "Together they make a signal. And we know where to point it." | The ritual as engineering. Even and explanatory. Slightly withheld on the second half — the beams answer it four seconds later. |
+| B7 | 0:44.3 | "Breathing. Light. Sound. Three hundred people moving as one." | A parts list. Technical, unhurried, quietly pleased with how neat it is. No mysticism whatsoever. Moved half a second earlier than B6's gap strictly needs, because spoken aloud at a deliberate 150 wpm this is the longest line in the film and it was running into B8 — and B8 cannot move, it is pinned to the moon cut. |
+| B8 | 0:49.0 | "Together they make a signal. And we know where to point it." | The ritual as engineering. Even and explanatory. **The cut lands mid-line, on "signal"** — the exterior, beams leaving the roof and converging on the moon, at 0:49.9 — so the first sentence is spoken inside the dome and the second is spoken over the moon. Do not rush the second half; the image is already making the argument and the line only has to confirm it. This is the shot the film is named after. |
 | B9 | 0:54.3 | "The number has to stay above eighty. That is the whole plan." | **The most load-bearing line in the film.** It hands the audience the scoreboard, and it names the thing in the corner of the frame so they know what to watch. Read it as a spec, not a challenge — she is stating a target, not making a vow. Everything after this is suspense only because this line is clear, so give it air. |
 | A4 | 0:59.6 | "They still get together. I think that is sweet." | Genuinely warm. No irony on "sweet". He has just heard the entire plan and understood none of it. |
 | B10 | 1:03.8 | "Something is answering." | Over the readout waking, on the SIGNAL STRENGTH card. Three words. The first hint that anybody is out there — reported as a result, not a revelation. |
@@ -258,7 +258,7 @@ sees someone in the doorway.*
 | — | 1:09.1–1:13.5 | **silence** | Blood moon, then the transformation. Nothing over it. |
 | B11 | 1:14.0 | "It is changing us first." | **This is what explains the beasts.** An observation about a side effect she had not expected and does not regret. Three words, and the picture has just shown you what she means. |
 | B12 | 1:17.5 | "That is the cost. You do not stay the same shape." | Flat, almost a technical footnote. The most frightening line she has, and only if it is read with no drama at all. |
-| A6 | 1:22.9 | "Ninety-six decibels. Over the limit." | Purely administrative, and it states the rule he is about to enforce. The coldest line in the film and it must be the dullest. |
+| A6 | 1:22.6 | "Ninety-six decibels. Over the limit." | Purely administrative, and it states the rule he is about to enforce. The coldest line in the film and it must be the dullest. Sits inside the meter shot either way; nudged earlier so it clears B13, which is pinned to the 79.9 on screen and cannot move. |
 | B13 | 1:26.0 | "Seventy-nine point nine. Hold it there." | **The number on screen reads 79.9 as she says it, and it never gets higher before the attack.** She is one tenth short and she does not know that is as close as they will come. Do not play the disappointment — she still thinks they will get there. The audience does the ache. |
 | B14 | 1:29.4 | "Someone at the door is measuring us." | **The two halves of the film touch for the first time.** Not alarm — she has noticed something and is reporting it while she works. The audience is far more worried than she is. |
 | B15 | 1:33.3 | "Not a reflection. An answer." | Over the moon going blood-orange. The payoff of the plan. Four words, the second pair landing on the cut. Do not raise the voice; the picture is shouting. |
@@ -288,13 +288,13 @@ the last word.*
 
 | # | at | line | note |
 |---|---|---|---|
-| A13 | 2:24.8 | "There was nothing left. I checked." | **The number crosses eighty for the first time in the entire film four tenths of a second before he says this.** Total confidence. He is contradicted by the corner of his own frame. |
-| B19 | 2:29.8 | "It did not die. It just does not need us now." | Over the moon with an eye. It is alive and it is on its own. Quiet — the first time she sounds like anything other than an engineer. |
-| — | 2:34.4–2:40.4 | **silence** | The lunar room. The film answers with pictures. |
-| B20 | 2:40.7 | "Over eighty. It is holding." | The screen reads 85.0. **The target from 0:54, cleared** — the line the whole film has been waiting for, and it should be read as plainly as the reading at 1:26. The audience supplies the elation. |
-| B21 | 2:43.3 | "We woke something up. And it came back for us." | Over the moon dance, as the group joins. **The bond — the actual moonshot.** Not triumph. Closer to being met. |
-| A14 | 2:47.9 | "We will need to do something about the moon." | His last line, and he has learned nothing — the logic does not stop, it moves up a scale. It lands *inside* the card where the machine picks a side, so he files a note about the moon while the thing commits behind him. Read exactly like A2: a small administrative note to himself. No wink. Funnier and worse if he means it. |
-| — | 2:51.7–2:55.1 | **silence** | The rest of the sign-on, and the van. The machine changing sides is a signature, not an argument; nobody narrates it. |
+| A13 | 2:24.8 | "There was nothing left. I checked." | **The number crosses eighty for the first time in the entire film four tenths of a second before he says this**, and the picture under him is a beast's hand pushing the dome's plug back into the socket while the lights come up. Total confidence, contradicted twice in the same second — by the corner of his own frame and by the shot he is talking over. |
+| B19 | 2:32.6 | "It did not die. It is holding us up now." | Over the moon with an eye. It is alive, and it is carrying them — the line the whole positive reading of the ending hangs on, and it was "it just does not need us now" until the cut proved that told an audience the opposite of the story. Quiet — the first time she sounds like anything other than an engineer. |
+| — | 2:37.2–2:41.8 | **silence** | The field, whole again — the first time the collective thing has been on screen since it was erased. The film answers with pictures. |
+| B20 | 2:42.2 | "Over eighty. It is holding." | The screen reads 85.0. **The target from 0:54, cleared** — the line the whole film has been waiting for, and it should be read as plainly as the reading at 1:26. The audience supplies the elation. |
+| B21 | 2:44.8 | "We woke something up. And it came back for us." | Over the moon dance, as the group joins. **The bond — the actual moonshot.** Not triumph. Closer to being met. |
+| A14 | 2:49.4 | "We will need to do something about the moon." | His last line, and he has learned nothing — the logic does not stop, it moves up a scale. It lands *inside* the card where the machine picks a side, so he files a note about the moon while the thing commits behind him. Read exactly like A2: a small administrative note to himself. No wink. Funnier and worse if he means it. |
+| — | 2:53.2–2:55.1 | **silence** | The rest of the sign-on, and the van. The machine changing sides is a signature, not an argument; nobody narrates it. |
 | B22 | 2:55.1 | "They said it was behind us. It is ahead of us." | **The last line of the film**, over the title, answering B1 word for word. Flat and certain. Not a rallying cry — a correction to the record. |
 
 ---

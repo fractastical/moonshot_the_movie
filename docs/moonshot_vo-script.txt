@@ -1,7 +1,7 @@
 MOONSHOT — voice-over recording script
 ======================================================================
 
-36 lines, ~299 words, three minutes.
+36 lines, ~298 words, three minutes.
 Smug, not jackbooted. Warm, unhurried, certain, never menacing.
 48kHz 24-bit mono WAV, dry, one file per line, three reads each.
 
@@ -97,22 +97,30 @@ ACT II — THE MOONSHOT   (0:35–1:05)
      rather than an idea. Say it as though it were the obvious
      next step, because to her it is.
 
- B7. [0:44.8]
+ B7. [0:44.3]
 
      "Breathing. Light. Sound. Three hundred people moving as
      one."
 
      A parts list. Technical, unhurried, quietly pleased with how
-     neat it is. No mysticism whatsoever.
+     neat it is. No mysticism whatsoever. Moved half a second
+     earlier than B6's gap strictly needs, because spoken aloud at
+     a deliberate 150 wpm this is the longest line in the film and
+     it was running into B8 — and B8 cannot move, it is pinned to
+     the moon cut.
 
  B8. [0:49.0]
 
      "Together they make a signal. And we know where to point
      it."
 
-     The ritual as engineering. Even and explanatory. Slightly
-     withheld on the second half — the beams answer it four
-     seconds later.
+     The ritual as engineering. Even and explanatory. The cut
+     lands mid-line, on "signal" — the exterior, beams leaving the
+     roof and converging on the moon, at 0:49.9 — so the first
+     sentence is spoken inside the dome and the second is spoken
+     over the moon. Do not rush the second half; the image is
+     already making the argument and the line only has to confirm
+     it. This is the shot the film is named after.
 
  B9. [0:54.3]
 
@@ -170,13 +178,15 @@ B12. [1:17.5]
      Flat, almost a technical footnote. The most frightening line
      she has, and only if it is read with no drama at all.
 
- A6. [1:22.9]
+ A6. [1:22.6]
 
      "Ninety-six decibels. Over the limit."
 
      Purely administrative, and it states the rule he is about to
      enforce. The coldest line in the film and it must be the
-     dullest.
+     dullest. Sits inside the meter shot either way; nudged
+     earlier so it clears B13, which is pinned to the 79.9 on
+     screen and cannot move.
 
 B13. [1:26.0]
 
@@ -302,22 +312,29 @@ A13. [2:24.8]
      "There was nothing left. I checked."
 
      The number crosses eighty for the first time in the entire
-     film four tenths of a second before he says this. Total
-     confidence. He is contradicted by the corner of his own
-     frame.
+     film four tenths of a second before he says this, and the
+     picture under him is a beast's hand pushing the dome's plug
+     back into the socket while the lights come up. Total
+     confidence, contradicted twice in the same second — by the
+     corner of his own frame and by the shot he is talking over.
 
-B19. [2:29.8]
+B19. [2:32.6]
 
-     "It did not die. It just does not need us now."
+     "It did not die. It is holding us up now."
 
-     Over the moon with an eye. It is alive and it is on its own.
+     Over the moon with an eye. It is alive, and it is carrying
+     them — the line the whole positive reading of the ending
+     hangs on, and it was "it just does not need us now" until the
+     cut proved that told an audience the opposite of the story.
      Quiet — the first time she sounds like anything other than an
      engineer.
 
-   [2:34.4–2:40.4]  --- SILENCE ---
-   The lunar room. The film answers with pictures.
+   [2:37.2–2:41.8]  --- SILENCE ---
+   The field, whole again — the first time the collective thing
+   has been on screen since it was erased. The film answers with
+   pictures.
 
-B20. [2:40.7]
+B20. [2:42.2]
 
      "Over eighty. It is holding."
 
@@ -326,14 +343,14 @@ B20. [2:40.7]
      read as plainly as the reading at 1:26. The audience supplies
      the elation.
 
-B21. [2:43.3]
+B21. [2:44.8]
 
      "We woke something up. And it came back for us."
 
      Over the moon dance, as the group joins. The bond — the
      actual moonshot. Not triumph. Closer to being met.
 
-A14. [2:47.9]
+A14. [2:49.4]
 
      "We will need to do something about the moon."
 
@@ -344,7 +361,7 @@ A14. [2:47.9]
      A2: a small administrative note to himself. No wink. Funnier
      and worse if he means it.
 
-   [2:51.7–2:55.1]  --- SILENCE ---
+   [2:53.2–2:55.1]  --- SILENCE ---
    The rest of the sign-on, and the van. The machine changing
    sides is a signature, not an argument; nobody narrates it.
 

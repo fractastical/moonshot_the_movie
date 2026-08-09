@@ -218,7 +218,7 @@ At 2:25 the moon-eye sequence lands as the payoff rather than as more montage.
 - Figures corrupting: `Astronauts/futuristic-astronauts-walking-in-glitch-space-scene…mp4` (5s).
 - The live instrument: `bioart_vj_loop_pack/biota_record_8s_loop.mp4` — a circular dish of clustered points, the meter's biological twin; kill it alongside the geomap.
 - Patience shot if needed: `Moon Loops/an-airliner-lines-up-for-a-nighttime-final-approac…mov` (49s) — an airliner crossing a huge golden moon.
-- Ritual punctuation: `VAJRA DORJE ANIMATIONS/DORJE 3D ROTATING 1.mp4`.
+- ~~Ritual punctuation: `VAJRA DORJE ANIMATIONS/DORJE 3D ROTATING 1.mp4`.~~ **Cut.** It held 2.5s at 0:43 and did nothing but rotate on black — no room, no people, no telemetry — while halving the act's only build. It also cost more than it returned: a floating Tibetan ritual implement is the strongest single push toward reading the circle as a séance, which is the one reading Act II cannot afford. Its seconds went back to the ritual.
 - Moonshot rhyme, if the resolution needs lifting: `Astronauts/futuristic-astronauts-walk-through-neon-ring-tunne…mov` — concentric orange rings that rhyme with both the sacred geometry projected on the ritual floor and the op-art spiral on the HYPERSTITION poster.
 
 **Renderable from our own system** — these are the strongest shots in the insert and none
@@ -661,7 +661,10 @@ powering down, nobody in frame. Until this card existed, twenty people sat in a
 dome because the story needed them to. Now Act II is a substitution for equipment
 they can no longer run, the circle is a transmitter rather than a séance, and the
 ZVEN prompt has grown an exterior — the beams have to leave the dome or the
-moonshot is not in the film. The dorje gave up 2.5 of its 5 seconds to pay for it.
+moonshot is not in the film. Asking one clip for the interior and the exterior
+returned the interior twice, so the exterior is now its own 3s shot at 0:49.9,
+landing on the second half of B8. The dorje paid for it: cutting that 2.5s and
+returning it to the ritual means the aim costs the circle half a second.
 
 ### The moon was missing from the middle, and the footage was already in hand
 
