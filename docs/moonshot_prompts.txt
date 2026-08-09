@@ -72,7 +72,7 @@ no military, no weapons.
 
 ------------------------------------------------------------------------
 3. ZVEN RITUAL — SOURCE NEEDED
-   slot 0:43.4  ·  6.5s  ·  vibe 11 to 16  ·  ask for 8s
+   slot 0:44.9  ·  6.5s  ·  vibe 12 to 20  ·  ask for 8s
 ------------------------------------------------------------------------
 
 The meditation circle with the crossed blue beams is the most credible
@@ -106,7 +106,7 @@ uniforms, no police, no military, no weapons.
 
 ------------------------------------------------------------------------
 4. THE MOONSHOT — THE BEAMS REACH THE MOON
-   slot 0:49.9  ·  3.0s  ·  vibe 16 to 22  ·  ask for 8s
+   slot 0:51.4  ·  3.0s  ·  vibe 20 to 24  ·  ask for 8s
 ------------------------------------------------------------------------
 
 The one image the film is named after and did not contain. The beams

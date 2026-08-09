@@ -343,23 +343,30 @@ The result keeps 11.5 dB between the flatline and the party — felt, but never 
 
 `build/video/animatic.mp4`, the full 3:00 at 1080p against the score, plus a 720p copy.
 
-    .venv/bin/python3 tools/video/animatic.py            # full render, ~4 min
+    .venv/bin/python3 tools/video/animatic.py            # full render, ~18 min
     .venv/bin/python3 tools/video/animatic.py --preview  # one frame per segment, as a sheet
+    .venv/bin/python3 tools/video/animatic.py --clean --vo   # the same cut, to send
 
-Forty-nine segments, and **every one of them is picture** — there is no longer a slate
+Fifty-one segments, and **every one of them is picture** — there is no longer a slate
 card anywhere in the film. Chrome runs across every frame — act, timecode, source, and
 the live vibe number that is driving the music — so it is always clear what you are
 looking at and where it came from.
 
 | | Shots | Time | Share |
 |---|---|---|---|
-| **REAL** — contest cut, stock, our own renders | 34 | 112.7s | 63% |
+| **REAL** — contest cut, stock, our own renders | 34 | 107.2s | 60% |
 | **RENDER** — drawn from our own console | 7 | 30.3s | 17% |
-| **GENERATE** — came out of Veo | 8 | 37.0s | 21% |
+| **GENERATE** — came out of Veo | 10 | 42.5s | 24% |
 
 The tags survive the cards being filled, because the editor still needs to know at a
 glance which frames came off a camera, which came out of a generator, and which came out
 of the rig.
+
+`--clean` writes the same cut with none of that, to `animatic_clean.mp4`. The chrome is a
+working document and it reads as one; anybody who is watching the film rather than cutting
+it should be sent the clean render instead. Pass `--vo` with it — the plot is carried by
+the voice-over, and without it a viewer who has had the on-screen labels taken away is
+watching three minutes of music.
 
 Every act lands exactly on the score's act boundary, so picture and music are already
 locked to each other. The number in the chrome is the number in `curve.py`: it sits at 6
@@ -791,7 +798,86 @@ Rewriting cost length: 281 words became 300, which broke the timing in seven pla
 The collision checker was written for exactly that, and all thirty-six lines were
 re-timed against the picture. 128 seconds of speech, 52 of silence, no overlaps.
 
-## 14. Open questions
+## 14. Our own cameras, and a third voice — built
+
+Two things arrived from outside the edit at the same time: a set of recordings off
+the site's own cameras, and a video call with one of the people who built the thing.
+Both are the same kind of material — not written, not generated, and not
+re-creatable — and both went in on the same principle: **replace like with like, and
+do not make the film longer.** Every act still runs to the frame it ran to before
+(35.625 / 30 / 30 / 48.75 / 35.625) and the cut is still 51 segments.
+
+### The plates
+
+| At | Was | Now |
+|---|---|---|
+| 0:39.1, 2.0s | *(new)* — paid for by the two shots below | `SITE` — the tabernacle half-built, on our own camera |
+| 0:41.1, 3.8s | into the tabernacle, 4.3s | the same shot, half a second shorter |
+| 1:02, 1.5s | stock fluorescent cells, "the biosensor read" | *(cut)* |
+| 2:12.9, 2.0s | stock "figures corrupting" | `SENTINEL` — NO SIGNAL on our own outdoor camera |
+
+The site plate is the one that changes how the act reads. Every generated shot in
+Act II asks Veo for *"raw pine framing and silver mylar sheeting"* — and that phrase
+was not invented for the prompts, it is a description of a real structure that a real
+camera was pointed at on 21 July, a month before any of those prompts were run. So
+the act now shows the thing itself for two seconds before cutting inside the
+generator's version of it, which is the right way round. The feed is frozen, which
+would be a problem on a moving shot and is not on this one: it plays as a locked-off
+plate, which is what the exteriors in this film are.
+
+It cost half a second off the interior it introduces and the whole of the stock
+microscopy at 1:02 — a shot that was doing nothing the field render four seconds
+earlier was not already doing better, out of a library, in a film that keeps saying
+it is made of its own material.
+
+The sentinel plate lands two seconds after the wall of 1969 goes out, at the bottom
+of Act IV. The stock glitch loop it replaces was a *picture* of a feed corrupting;
+this is a feed that has actually stopped, on our own rig, with the site's list of
+prohibitions still scrolling across the top of it. The erasure is at full strength on
+that frame, so the shot is being torn by the same process that put the card up. Both
+plates get a treatment in `apply_treat` — `plate` pulls the daylight green out of the
+site so it sits in a near-monochrome night film, `sentinel` lifts the feed before the
+grade and the tearing reach it, or the only words worth reading go out with the
+picture.
+
+### C — the record
+
+`docs/vo-script.md` now has a third voice, and it is five seconds long.
+
+It is not a part. A and B are written, performed, and arguing inside a fiction; C is
+a real person on a real call explaining what this is for, and he cannot hear either
+of them. That distinction is what makes him admissible — this script has always
+refused to let one voice rebut another, and a voice from outside the film is not
+rebutting anything. He is the same class of object as the vibe number: something
+that came off the world and cannot be edited to suit the argument.
+
+| # | at | over | line |
+|---|---|---|---|
+| C1 | 2:06.0 | the field retracting, then the author's salute | "It turns us into spectators." |
+| C2 | 2:27.6 | THE TURN — the counter coming off zero | "Really enliven the moon as a symbol of the future." |
+
+Two rules are enforced in code. **He is never synthesised** — `vo_speak.py` has no
+voice for C and never will, so a missing recording is silence and a `MISSING` row in
+the report rather than a machine impersonating somebody who exists. And **he is
+exempt from the fifth-grade check** — not because the rule is wrong but because it is
+unenforceable on a recording; `reading_level.py` scores the written lines and times
+all thirty-eight.
+
+What the tooling does instead is cut and level. `tools/video/vo_third.py` holds the
+in and out points on word boundaries, along with the words each trim drops, and sets
+the gain off the *voiced* samples against the same measurement taken from the
+synthesised reads — 5.3x on one line and 1.9x on the other, which is why it is
+measured rather than dialled in once. Masters live in `audio/vo/third/`, tracked, for
+the same reason the booth takes are.
+
+**Two lines is what fits, and that is the finding.** He said a great deal more and
+most of it is good; the widest hole in the film that is not already doing a job is
+4.7 seconds, and his best sentence — *"The moon is one of many examples of a future
+that's being lost"* — is 7.4. The remaining nineteen are cut and indexed in
+`build/vo/lines/`. A film that is 57% speech has no room left, and the honest place
+for the rest of him is a trailer, which is what he was recorded for.
+
+## 15. Open questions
 
 - Can the amber cards hold a cut against the generated shots, or do they read as a
   different film? They are the only sequences with no photographic content at all.

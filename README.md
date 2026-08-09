@@ -4,12 +4,13 @@ An animatic for a three-minute film assembled out of a real exhibition. The
 footage, the score and the colour grade are all driven by crowd telemetry
 recorded off a live installation.
 
-**Download the cut from [Releases](../../releases/latest).** Two files, same edit:
+**Download the cut from [Releases](../../releases/latest).** Two files, same edit,
+and nothing burned into the picture in either:
 
 | file | | |
 |---|---|---|
-| `moonshot_animatic_MASTER_1080p.mp4` | 1920×1080, 30fps | the master |
-| `moonshot_animatic_REVIEW_720p.mp4` | 1280×720, 30fps | review and comments |
+| `moonshot_1080p.mp4` | 1920×1080, 30fps | the master |
+| `moonshot_720p.mp4` | 1280×720, 30fps | review, comments, anything with a size limit |
 | `moonshot_prompts.pdf` / `.txt` | one page per generated shot | the prompt sheet |
 | `moonshot_vo-script.pdf` / `.txt` | 36 lines, two speakers, timecoded | the voice-over recording script |
 
@@ -49,8 +50,10 @@ treat them as shots. Two of them carry plot the dialogue never states.
 
 ## The chrome
 
-An overlay runs across every frame: act, timecode, source label, and a live
-number labelled VIBE.
+The release above is clean — no overlay, no tags, no timecode. There is a working
+version of the same cut with an overlay across every frame: act, timecode, source
+label, and a live number labelled VIBE. That one is for cutting, not for watching,
+and everything below about the number describes it.
 
 That number is real crowd telemetry recorded at the exhibition, and it is not
 decoration. It drives the score's arrangement and the colour grade frame by
@@ -139,8 +142,10 @@ trimmed — please flag a timing change rather than cutting into it.
   is the one you'll actually copy out of.
 - [`docs/vo-script.md`](docs/vo-script.md) — the voice-over: 36 lines for two
   speakers recorded separately, timecoded, with direction notes and a recording
-  spec. It opens with the whole plot in one plain paragraph. The
-  [PDF](docs/moonshot_vo-script.pdf) is the booth version.
+  spec, plus a third voice that is a recording rather than a part. It opens with
+  the whole plot in one plain paragraph. The
+  [PDF](docs/moonshot_vo-script.pdf) is the booth version, and carries the 36
+  lines that are actually going to be performed.
 - [`docs/generation-prompts.md`](docs/generation-prompts.md) — the same shots with
   more around them: reference plates, continuity rules, alternates, priority
   order. Start here if you're re-rolling one.
@@ -154,44 +159,40 @@ trimmed — please flag a timing change rather than cutting into it.
 
 ## What changed in this cut
 
-The last version ended with a room recovering, and a room recovering reads as
-"the party got going again" — a pleasant ending, not the one this film claims.
-Everything below is aimed at the same thing: something did this, on purpose, and
-it is still doing it.
+Two things arrived from outside the edit and both are the same kind of material:
+not written, not generated, and not re-creatable. They went in on the same rule —
+replace like with like, and do not make the film longer. Every act still runs to
+the frame it ran to before, and the cut is still 51 segments and 180.000s.
 
-- **The two missing shots exist.** `THE MOONSHOT — THE BEAMS REACH THE MOON` at
-  0:49 and `THEY PLUG IT BACK IN` at 2:24 were the last red cards in the film and
-  they were the two the title and the ending depended on. The cut now has no
-  holes at all.
-- **The ending said the opposite of the story.** The scientist's line over the
-  moon was *"It did not die. It just does not need us now"*, which tells an
-  audience they have been abandoned by the thing they built. It is now *"It did
-  not die. It is holding us up now."* Act IV's tail was re-timed around it and the
-  silence at 2:37 is the collective thing whole again rather than an empty room.
-- **The machine says what is keeping the lights on.** On the final card:
-  `THE GRID`, struck through, `OFF SINCE 1:58`; then `THE MOON`, typed on rather
-  than cut in, `FEEDING THE ROOM`. Without it the moon is scenery — the recovery
-  is only an act if something is named as its source.
-- **The score turns to the relative major.** Four acts rest on the Am every fourth
-  bar; Act V plays the same four chords as vi-IV-V-I, anchored so the last bar
-  under the title card is the tonic. Same voicings, same hook — the film resolving,
-  not a key change nobody set up.
-- **The antagonist is one antagonist.** The field staff wore sage-green
-  softshells and read as a different film's problem. They now wear the author's
-  heavy dark greatcoat, wide collar and black leather gloves, so the man in the
-  corridor at 1:35, the people in the doorway at 1:38 and the hand on the plug at
-  1:58 are visibly one side.
-- **The collective thing survives on screen.** It ran through the build, the peak
-  and the erasure and then vanished from the recovery, so the picture showed it
-  die and never showed it come back. It returns at 2:37, framed long so it
-  resolves as one contained body, cut between the moon with an eye and the moon
-  dance — the thing they built and the thing they aimed at, shot like the same
-  object.
-- **The protagonist has a face in the film.** She carries 22 of the 36 spoken
-  lines and had been on screen twice. Her introduction at 0:12 also used to open
-  on a third of a second of the wrong shot, which is fixed, and she now appears
-  in the generated Act IV arrival as the person the citation is handed to.
-- **The dorje is gone.** 2.5 seconds of a ritual implement rotating on black — no
-  room, no people, no telemetry — cutting Act II's only build in half, and the
-  strongest single push toward reading the circle as a séance. Its seconds paid
-  for the moonshot exterior.
+- **The real structure is in the film.** Two seconds of the tabernacle
+  half-built, on the site's own camera, now open Act II at **0:39**. Every
+  generated shot in that act asks for *"raw pine framing and silver mylar
+  sheeting"* — and that phrase was not invented for the prompts, it describes a
+  real structure a real camera was pointed at a month before any of them were
+  run. So the act shows the thing itself before it cuts inside the generator's
+  version of it, which is the right way round. It cost half a second off the
+  interior it introduces, and the whole of a stock microscopy shot at 1:02.
+- **The cameras go blind at the bottom of Act IV.** At **2:12.9**, two seconds
+  after the wall of 1969 goes out, the site's outdoor camera reads NO SIGNAL with
+  its list of prohibitions still scrolling across the top of it. It replaces a
+  stock glitch loop, and that is the whole trade: a picture of a feed corrupting,
+  swapped for a feed that stopped. The film's own erasure is at full strength on
+  that frame, so the shot is torn by the same process that put the card up.
+- **A third voice, twice, for five seconds.** Not a part. It is a real recording
+  of one of the people who built this, taken off a video call, saying what it is
+  for in his own words — *"It turns us into spectators"* at **2:06**, and
+  *"Really enliven the moon as a symbol of the future"* at **2:27.6**. He is
+  never synthesised, and he cannot hear either of the other two speakers, which
+  is what makes him admissible in a script that has always refused to let one
+  voice rebut another. He is the same class of object as the number in the
+  corner: something that came off the world and cannot be edited to suit the
+  argument.
+- **Two lines is what the film had room for, and that is the finding.** He said a
+  great deal more and most of it is good. The widest hole left in a cut that is
+  56% speech is 4.7 seconds, and his best sentence — *"The moon is one of many
+  examples of a future that's being lost"* — runs 7.4. The only gaps big enough
+  are the two deliberate silences, and spending either costs more than it buys.
+
+Earlier releases carry their own notes: the moonshot exterior and the plug going
+back in ([v1.2](../../releases/tag/v1.2-animatic)), the instrument panels and the
+fifth-grade rewrite ([v1.1](../../releases/tag/v1.1-animatic)).

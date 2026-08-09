@@ -1,11 +1,15 @@
 # MOONSHOT — voice-over script
 
-**Two voices, 36 lines, about 300 words across three minutes.** One voice is
+**Two written voices, 36 lines, about 300 words across three minutes.** One is
 speaking from afterwards, calm, certain it settled the matter. The other is
 speaking from inside it, in the present tense, and does not yet know what is
 about to happen to her.
 
 That gap is the film's tension. Everything below is built to protect it.
+
+A third voice speaks twice, in Acts IV and V, and is not performed: it is a real
+recording of one of the people who built the thing, and it is treated as
+evidence rather than as a part. See [C — the record](#c--the-record).
 
 ---
 
@@ -171,6 +175,44 @@ His line at 1:36 — *"no one could tell me what it was for"* — is the hinge. 
 audience has known since 0:54. It plays as a man who was told and did not
 listen.
 
+## C — THE RECORD
+
+**A third voice, twice, for five seconds.** It is not a part and it is
+not a character. It is one of the people who actually built this thing, recorded
+on a video call while explaining what it is for, and it is the only voice in the
+film speaking about the real moon rather than the plot's.
+
+That is the whole reason it is allowed in. A and B are arguing inside a fiction
+and both of them are written. He is outside it, he cannot hear either of them,
+and neither of them can hear him — so he is not rebutting anybody, which is the
+one thing this script has always refused to let a voice do. He is the same kind
+of object as the vibe number: something that came off the real world and cannot
+be edited to suit the argument.
+
+Two rules follow from that and both are enforced in code:
+
+- **He is never synthesised.** If the recording is missing, the line is silent
+  and the report says so. There is no stand-in for a person saying a true thing.
+- **He is exempt from the fifth-grade check.** Not because the rule is wrong but
+  because it is unenforceable — you cannot rewrite a recording, and pretending
+  to measure it would only hide that. `reading_level.py` scores the written
+  lines and times all of them.
+
+What we *can* do is cut. `tools/video/vo_third.py` holds the in and out points,
+on word boundaries, along with the words each trim drops, because the film is
+full and his sentences arrived at their own length.
+
+| # | at | line | note |
+|---|---|---|---|
+| C1 | 2:06.0 | "It turns us into spectators." | Over the field retracting and the author's salute — the collective thing withdrawing and the room left watching it go. His sentence about the moon becoming something you look at, laid over the one moment in the film where that is literally what has happened to them. |
+| C2 | 2:27.6 | "Really enliven the moon as a symbol of the future." | Over THE TURN — the counter coming off zero and the map relighting pin by pin. The film's thesis said out loud, once, by somebody who is not in it. Trimmed off the front of "I think we can really enliven…" — the hedge does not fit the hole and the line is better without it — and a one-and-a-quarter-second stumble closed in the middle of it. |
+
+He said a great deal more than this and most of it is longer than any hole the
+picture leaves. The unused sentences are cut and indexed in `build/vo/lines/`;
+the best of them — *"The moon is one of many examples of a future that's being
+lost"* — is seven and a half seconds and the widest gap in the film that is not
+already doing a job is four and a half.
+
 ## The third party
 
 Three parties, not two. The thing he speaks for feeds on agreement and would
@@ -207,6 +249,13 @@ other, so there is no need to get them in a room together.
   to a colleague rather than to us. We may prefer it.
 - A second of room tone at head and tail of every file, and **thirty seconds of
   clean room tone per actor** as its own file.
+
+The files go in `audio/vo/`. `tools/video/vo_takes.py` finds the separate reads
+inside each one, reports which of them fits the hole the picture leaves, and
+hands the chosen read to `tools/video/vo_speak.py`, which uses a real recording
+wherever it has one and the synthesised stand-in everywhere else. A session that
+records one part therefore drops straight onto the cut without waiting for the
+other to be booked.
 
 Durations are estimates and every line has been checked against the picture for
 room. Don't perform to them. The exceptions are lines that sit inside a fixed
@@ -266,7 +315,7 @@ sees someone in the doorway.*
 ### ACT IV — THE SQUEEZE (1:35–2:24)
 
 *He attacks the evidence rather than the people. When it recovers anyway, he
-cuts the power.*
+cuts the power.* C1 sits at 2:06.0, in the gap between A11 and A12.
 
 | # | at | line | note |
 |---|---|---|---|
@@ -284,7 +333,7 @@ cuts the power.*
 ### ACT V — THE ANSWER (2:24–3:00)
 
 *The closed file reopens. He is contradicted inside his own sentence. She gets
-the last word.*
+the last word.* C2 sits at 2:27.6, between A13 and B19.
 
 | # | at | line | note |
 |---|---|---|---|
