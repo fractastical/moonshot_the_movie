@@ -1,7 +1,7 @@
 MOONSHOT — voice-over recording script
 ======================================================================
 
-36 lines, ~298 words, three minutes.
+31 lines, ~256 words, three minutes.
 Smug, not jackbooted. Warm, unhurried, certain, never menacing.
 48kHz 24-bit mono WAV, dry, one file per line, three reads each.
 
@@ -41,32 +41,14 @@ ACT I — THE CLOSED FILE   (0:00–0:35)
      later follows from this one sentence, so it has to be
      completely clear and completely calm.
 
- B2. [0:19.8]
-
-     "Nothing left to do, they say. We call it the Nothing."
-
-     The official phrase is on the screen behind her, word for
-     word, as she says it. First half a quotation held at arm's
-     length, second half plain speech. Do not weight "the
-     Nothing"; it is just what people inside it call it.
-
- A3. [0:25.2]
+ A3. [0:19.5]
 
      "I wrote the rules."
 
      He is on screen. Not boastful. A small, satisfied fact — and
      it tells the audience he is not a guard, he is the author.
 
- B3. [0:27.5]
-
-     "They took our money. Last week, our power."
-
-     Straight after he claims authorship, so his sentence causes
-     hers. "Last week" is doing the work — this is not history, it
-     is happening now and it is speeding up. No self-pity. Two
-     facts in the order they arrived.
-
- B4. [0:31.3]
+ B4. [0:30.5]
 
      "But the moon still pulls the sea. For free."
 
@@ -81,46 +63,40 @@ ACT I — THE CLOSED FILE   (0:00–0:35)
 ACT II — THE MOONSHOT   (0:35–1:05)
 ======================================================================
 
- B5. [0:36.3]
+ B5. [0:36.0]
 
-     "We have no power. So we have no machines."
+     "We have no power. So we are building a machine out of
+     people."
 
-     Over the lab going dark — his budget footnote, from the other
-     end. Present tense, matter of fact. A problem to be solved,
-     not a grievance.
+     Over the lab going dark. Two old lines welded into one,
+     because "we have no machines" was a step the audience takes
+     for itself the moment they see the lab go dark. The "so" is
+     the whole sentence: it makes the plan a consequence rather
+     than an idea. Present tense, matter of fact, and said as
+     though it were the obvious next step, because to her it is.
 
- B6. [0:40.6]
+ B7. [0:42.1]
 
-     "So we are building a machine out of people."
+     "The bands read breath and pulse. Three hundred people
+     moving as one."
 
-     The pivot of the film, and the "so" makes it a consequence
-     rather than an idea. Say it as though it were the obvious
-     next step, because to her it is.
+     A parts list, and the one line that says what the apparatus
+     actually does. The headbands are on screen through the whole
+     ritual and until now nothing named them, which left the room
+     looking like a rite instead of an instrument. Technical,
+     unhurried, quietly pleased with how neat it is. No mysticism
+     whatsoever.
 
- B7. [0:44.3]
+ B8. [0:47.5]
 
-     "Breathing. Light. Sound. Three hundred people moving as
-     one."
+     "Together they make one signal."
 
-     A parts list. Technical, unhurried, quietly pleased with how
-     neat it is. No mysticism whatsoever. Moved half a second
-     earlier than B6's gap strictly needs, because spoken aloud at
-     a deliberate 150 wpm this is the longest line in the film and
-     it was running into B8 — and B8 cannot move, it is pinned to
-     the moon cut.
-
- B8. [0:49.0]
-
-     "Together they make a signal. And we know where to point
-     it."
-
-     The ritual as engineering. Even and explanatory. The cut
-     lands mid-line, on "signal" — the exterior, beams leaving the
-     roof and converging on the moon, at 0:49.9 — so the first
-     sentence is spoken inside the dome and the second is spoken
-     over the moon. Do not rush the second half; the image is
-     already making the argument and the line only has to confirm
-     it. This is the shot the film is named after.
+     The ritual as engineering, and it is now four words shorter
+     because the second half — "and we know where to point it" —
+     was saying what the very next shot shows. The cut lands on
+     "signal": the exterior, beams leaving the roof and converging
+     on the moon, at 0:49.9. This is the shot the film is named
+     after, and the line hands it over rather than narrating it.
 
  B9. [0:54.3]
 
@@ -141,13 +117,16 @@ ACT II — THE MOONSHOT   (0:35–1:05)
      Genuinely warm. No irony on "sweet". He has just heard the
      entire plan and understood none of it.
 
-B10. [1:03.8]
+B10. [1:03.4]
 
-     "Something is answering."
+     "It locks. Something answers."
 
-     Over the readout waking, on the SIGNAL STRENGTH card. Three
-     words. The first hint that anybody is out there — reported as
-     a result, not a revelation.
+     Over the readout waking, on the SIGNAL STRENGTH card. Four
+     words, and the second half of the mechanism: B7 said what the
+     bands read, this says what happens when the room comes into
+     phase. "Locks" is the engineering word and it is the only one
+     she needs. The first hint that anybody is out there —
+     reported as a result, not a revelation.
 
 
 ======================================================================
@@ -205,14 +184,6 @@ B14. [1:29.4]
      The two halves of the film touch for the first time. Not
      alarm — she has noticed something and is reporting it while
      she works. The audience is far more worried than she is.
-
-B15. [1:33.3]
-
-     "Not a reflection. An answer."
-
-     Over the moon going blood-orange. The payoff of the plan.
-     Four words, the second pair landing on the cut. Do not raise
-     the voice; the picture is shouting.
 
 
 ======================================================================
@@ -318,21 +289,14 @@ A13. [2:24.8]
      confidence, contradicted twice in the same second — by the
      corner of his own frame and by the shot he is talking over.
 
-B19. [2:32.6]
-
-     "It did not die. It is holding us up now."
-
-     Over the moon with an eye. It is alive, and it is carrying
-     them — the line the whole positive reading of the ending
-     hangs on, and it was "it just does not need us now" until the
-     cut proved that told an audience the opposite of the story.
-     Quiet — the first time she sounds like anything other than an
-     engineer.
-
-   [2:37.2–2:41.8]  --- SILENCE ---
-   The field, whole again — the first time the collective thing
-   has been on screen since it was erased. The film answers with
-   pictures.
+   [2:28.4–2:38.4]  --- SILENCE ---
+   Ten seconds, and the longest hold in the film. It picks up a
+   second into THE TURN and runs through the rest of it and all of
+   the moon with an eye. There was a line here once, "It did not
+   die. It is holding us up now.", and it was saying in words what
+   two shots were already saying in pictures. The film answers
+   with pictures. Do not fill this — C4 lands on the far side of
+   it, a second into the shot after, not inside it.
 
 B20. [2:42.2]
 

@@ -1,15 +1,17 @@
 # MOONSHOT — voice-over script
 
-**Two written voices, 36 lines, about 300 words across three minutes.** One is
+**Two written voices, 31 lines, 257 words across three minutes.** One is
 speaking from afterwards, calm, certain it settled the matter. The other is
 speaking from inside it, in the present tense, and does not yet know what is
 about to happen to her.
 
 That gap is the film's tension. Everything below is built to protect it.
 
-A third voice speaks twice, in Acts IV and V, and is not performed: it is a real
-recording of one of the people who built the thing, and it is treated as
-evidence rather than as a part. See [C — the record](#c--the-record).
+A third voice speaks four times and is not performed. It is a real recording of
+one of the people who actually built this thing, describing it **in the past
+tense, from after it worked** — which puts him in the authority's tense and on
+the opposite side of it. The film has two retrospectives, and only one of them
+is right. See [C — the record](#c--the-record).
 
 ---
 
@@ -114,14 +116,27 @@ becomes two people reminiscing and the tension evaporates.
 
 **One deliberate exception, and it is an arc rather than a slip.** B is locked
 in the present until B18 — "Zero. We think we killed it." — which is the last
-moment she is inside the crisis. From B19 onward she is allowed to look back at
+moment she is inside the crisis. From B20 onward she is allowed to look back at
 it, because by then it is survivable. Her tense loosening is the audience's cue
-that the danger has passed, roughly fifteen seconds before the picture confirms
-it. B3 also reports two recent events in the past; that is a person describing
-what just happened to her, not narration from afterwards, and it should be read
-at the same live pitch as everything around it.
+that the danger has passed, a few seconds before the picture confirms it.
 
 They never address each other, never overlap, and she never learns he exists.
+
+**C — THE RECORD. Past tense, and this is new.** He is not written, not cast and
+not in the fiction; he is a real recording. What matters structurally is that he
+is remembering too, from the same distance A is, about the same events — and he
+was on the winning side. Until now A owned the past tense outright, which is
+what made him sound settled. He no longer does. **The film has two men telling
+you how it turned out, in the same tense, and they disagree about who won.**
+
+That is the sharpest instrument in the script and it costs nothing to fire,
+because it is still not a rebuttal. He cannot hear A, has never heard of A, and
+is not answering him: he is answering an interviewer's questions in a different
+room, on a different day, about something that really happened. The film puts
+the two accounts next to each other and lets the audience notice. Nobody in this
+script has ever been allowed to win an argument out loud, and nobody does here
+either — A says there was nothing left, and four tenths of a second later a real
+human voice says *"But we prevailed"* about something else entirely.
 
 ## The two registers
 
@@ -177,19 +192,27 @@ listen.
 
 ## C — THE RECORD
 
-**A third voice, twice, for five seconds.** It is not a part and it is
-not a character. It is one of the people who actually built this thing, recorded
-on a video call while explaining what it is for, and it is the only voice in the
-film speaking about the real moon rather than the plot's.
+**A third voice, four times, for ten seconds.** It is not a part and it is not a
+character. It is one of the people who actually built this thing, and all four
+lines come off a single recording made after the fact, in which somebody asks
+him six questions about a planetary crisis in 2026 and he answers them the way
+you would answer a historian.
 
-That is the whole reason it is allowed in. A and B are arguing inside a fiction
-and both of them are written. He is outside it, he cannot hear either of them,
-and neither of them can hear him — so he is not rebutting anybody, which is the
-one thing this script has always refused to let a voice do. He is the same kind
-of object as the vibe number: something that came off the real world and cannot
-be edited to suit the argument.
+**He is remembering. That is the whole point of him.** He speaks from further out
+than anyone else in the film, in the same past tense as the authority, about the
+same events, having lost none of them. His four lines are not commentary on the
+plot; they are the same story told by the side that came through it — this is
+what we were losing, this is what we decided to do, we prevailed, and here is
+what it turned into. The film ends on the last of those, said by a person who
+exists, and that is the only moment in three minutes where anybody describes the
+world on the other side of the argument.
 
-Two rules follow from that and both are enforced in code:
+He is still not rebutting anybody, which is the one thing this script has always
+refused to let a voice do. He cannot hear A and has never heard of him. He is
+answering an interviewer, in a different room, about something real. The
+adjacency does all of the work and none of it is put in his mouth.
+
+Two rules follow and both are enforced in code:
 
 - **He is never synthesised.** If the recording is missing, the line is silent
   and the report says so. There is no stand-in for a person saying a true thing.
@@ -198,20 +221,32 @@ Two rules follow from that and both are enforced in code:
   to measure it would only hide that. `reading_level.py` scores the written
   lines and times all of them.
 
-What we *can* do is cut. `tools/video/vo_third.py` holds the in and out points,
-on word boundaries, along with the words each trim drops, because the film is
-full and his sentences arrived at their own length.
+What we *can* do is cut. `tools/video/vo_third.py` holds the in and out points
+and the words each trim drops. They are silences found by measuring the audio,
+not the boundaries the transcriber reports; on this recording those differ by up
+to a quarter of a second, which is most of a word.
 
-| # | at | line | note |
-|---|---|---|---|
-| C1 | 2:06.0 | "It turns us into spectators." | Over the field retracting and the author's salute — the collective thing withdrawing and the room left watching it go. His sentence about the moon becoming something you look at, laid over the one moment in the film where that is literally what has happened to them. |
-| C2 | 2:27.6 | "Really enliven the moon as a symbol of the future." | Over THE TURN — the counter coming off zero and the map relighting pin by pin. The film's thesis said out loud, once, by somebody who is not in it. Trimmed off the front of "I think we can really enliven…" — the hedge does not fit the hole and the line is better without it — and a one-and-a-quarter-second stumble closed in the middle of it. |
+| # | at | line | source | note |
+|---|---|---|---|---|
+| C1 | 0:22.0 | "We were losing the connection to our future." | call 0:20 | Lands on the authority claiming he wrote the rules. A2 has just explained why nothing needs power and A3 has just taken the credit for it; then a man who is not in the film names, in eight words, the thing that policy was costing. He is not answering him and cannot hear him. |
+| C2 | 0:49.6 | "We will not go back to the moon. We will bring the moon here." | call 1:56 | **The line is cut across the cut.** The first sentence plays over the ritual interior; the picture goes to the exterior and the beams reaching the moon at 0:51.42, which falls inside the beat he leaves between his own sentences; and "We will bring the moon here" starts four hundredths of a second later, on the beams. It is the decision, reported by somebody who was in the room when it was taken, and it reframes the moonshot from a journey into a summons. Trimmed of "to immunize it", a fourth idea in a line that already has three. **That beat is the reason this works**, which is why 0.34s was taken out of it and the remaining 0.42s was left alone — it has to be long enough for a cut to happen inside it. |
+| C3 | 2:27.6 | "But we prevailed." | call 7:20 | **Four tenths of a second after A13 says "There was nothing left. I checked."**, and two tenths after the picture cuts to THE TURN. Three words, in the authority's own tense, from the only person in the film who was actually there — landing on the frame where the counter comes off zero. He is answering an interviewer who had just said "But you prevailed", not answering A, and it does not matter: the cut is what the audience hears. |
+| C4 | 2:38.4 | "It's something that we do here now all the time." | call 8:37 | Over the field whole and holding — the collective thing coherent on screen for the first time since it was erased — and it arrives just under four seconds before B20 says "It is holding" about the same picture. **The closest the film comes to showing the future rather than the fight**, and it is deliberately ordinary: not a victory, a habit. Lifted off the front of nine seconds of setup it does not need. |
 
-He said a great deal more than this and most of it is longer than any hole the
-picture leaves. The unused sentences are cut and indexed in `build/vo/lines/`;
-the best of them — *"The moon is one of many examples of a future that's being
-lost"* — is seven and a half seconds and the widest gap in the film that is not
-already doing a job is four and a half.
+**Nothing here is written for him, and nothing is said twice.** All four are
+sentences he offered unprompted, in one sitting, before any of this was cut. The
+previous version of this section asked him to re-read two lines because the takes
+were the wrong length; that ask is withdrawn, and it is a better film for it. If
+a line ever has to be composed for him rather than recovered from him, it does
+not go in.
+
+He said a great deal more, and the best of it is longer than any hole the picture
+leaves — *"Every human functions as an antenna, as a receiver of the future"* is
+six and a half seconds, and *"aspiration was not a private feeling, it's a
+collective infrastructure problem"* is closer to eight. Neither fits. Both belong
+in the treatment and the logline, where there is room to be explained. The rest
+of the recording is transcribed in [the narration call](seb-narration.md), which
+is where to look before anybody books him again.
 
 ## The third party
 
@@ -225,7 +260,30 @@ machine", never "the instrument", and the actors should say it that way too.
 
 ---
 
-## Recording spec
+## Recording spec — C, the record
+
+**There is no spec, and there is nothing left to ask him for.** An earlier draft
+of this section asked him to say two sentences again, into a better microphone,
+because the takes on the first call were the wrong length. That ask is withdrawn.
+All four lines now come off one nine-minute recording in which he was asked six
+questions and answered them, and every word in the film is a sentence he offered
+rather than one he was handed.
+
+Keep it that way. The rule is not that his lines are hard to get; it is that they
+have to already exist. If Act V ever needs a fifth beat, the place to look is the
+rest of that recording — it is transcribed, indexed by pitch and level, and
+mostly unused — and not a booking. The one thing that would end the voice's
+licence is composing a sentence and asking him to read it back.
+
+If he is ever recorded again, the only useful brief is the one that produced
+this: **ask him questions and let him answer them.** He is not being cast, and
+the moment he is directed toward a performance the recording stops being worth
+more than an actor's.
+
+Masters live in `audio/vo/third/` as `C1.wav`–`C4.wav`, which is tracked;
+`tools/video/vo_third.py` re-cuts them from the call and matches them to the mix.
+
+## Recording spec — A and B
 
 **Two actors, recorded separately.** They never overlap and never address each
 other, so there is no need to get them in a room together.
@@ -265,10 +323,19 @@ card: A9, A14 and B22.
 
 ## The script
 
+The numbering has gaps — there is no B6, B15 or B19. Those lines were cut and
+the IDs were left where they fell, because a line ID is the name of a file on
+disk and in the mix, and renaming thirty of them to close three holes is how a
+take ends up under the wrong line.
+
 ### ACT I — THE CLOSED FILE (0:00–0:35)
 
 *He explains why the quiet is good. She says what it cost, and where this is
-going. He is remembering. She is standing in it.*
+going. He is remembering. She is standing in it.* C1 sits at 0:22.0, landing on
+his claim of authorship: he says he wrote the rules, and a man who is not in the
+film says what the rules were costing. Both of them are speaking from
+afterwards. Only one of them is going to turn out to be right, and the audience
+has no way to know that yet.
 
 | # | at | line | note |
 |---|---|---|---|
@@ -276,25 +343,26 @@ going. He is remembering. She is standing in it.*
 | B1 | 0:05.5 | "They play the moon landing all day. To prove it is over." | Over 1969 on a CRT nobody watches. She is reading the official meaning off an image, flatly, the way you would read a plaque. Sets up the last line of the film. |
 | — | 0:10.5–0:14.5 | **silence** | The power notice. The panel reads itself; do not talk over it. |
 | A2 | 0:14.9 | "We already did the big thing. So nobody needs much power." | **The whole argument of the film, in eleven plain words.** Flat — a statement of policy, not a defence. Everything he does later follows from this one sentence, so it has to be completely clear and completely calm. |
-| B2 | 0:19.8 | "Nothing left to do, they say. We call it the Nothing." | The official phrase is on the screen behind her, word for word, as she says it. First half a quotation held at arm's length, second half plain speech. Do not weight "the Nothing"; it is just what people inside it call it. |
-| A3 | 0:25.2 | "I wrote the rules." | He is on screen. Not boastful. A small, satisfied fact — and it tells the audience he is not a guard, he is the author. |
-| B3 | 0:27.5 | "They took our money. Last week, our power." | Straight after he claims authorship, so his sentence causes hers. **"Last week" is doing the work** — this is not history, it is happening now and it is speeding up. No self-pity. Two facts in the order they arrived. |
-| B4 | 0:31.3 | "But the moon still pulls the sea. For free." | **The hook.** Over an airliner crossing the moon while nobody looks up. "But" is load-bearing: it is the first push back in the film. She has turned a closed file into a free power source. An engineer spotting something on a balance sheet, not poetry. The flatter it is read, the bigger it gets. |
+| A3 | 0:19.5 | "I wrote the rules." | He is on screen. Not boastful. A small, satisfied fact — and it tells the audience he is not a guard, he is the author. |
+| B4 | 0:30.5 | "But the moon still pulls the sea. For free." | **The hook.** Over an airliner crossing the moon while nobody looks up. "But" is load-bearing: it is the first push back in the film. She has turned a closed file into a free power source. An engineer spotting something on a balance sheet, not poetry. The flatter it is read, the bigger it gets. |
 
 ### ACT II — THE MOONSHOT (0:35–1:05)
 
 *She states the whole plan in thirty seconds and names the number they have to
-beat. He gets one line and it is condescending.*
+beat. He gets one line and it is condescending.* C2 sits at 0:49.6 and is cut
+across the cut: it starts inside the tabernacle and finishes on the beams
+reaching the moon, because the picture changes during the pause between his two
+sentences. The decision the film is named after, reported on the shot it is
+named after, by somebody who was in the room when it was taken.
 
 | # | at | line | note |
 |---|---|---|---|
-| B5 | 0:36.3 | "We have no power. So we have no machines." | Over the lab going dark — his budget footnote, from the other end. Present tense, matter of fact. A problem to be solved, not a grievance. |
-| B6 | 0:40.6 | "So we are building a machine out of people." | The pivot of the film, and the "so" makes it a consequence rather than an idea. Say it as though it were the obvious next step, because to her it is. |
-| B7 | 0:44.3 | "Breathing. Light. Sound. Three hundred people moving as one." | A parts list. Technical, unhurried, quietly pleased with how neat it is. No mysticism whatsoever. Moved half a second earlier than B6's gap strictly needs, because spoken aloud at a deliberate 150 wpm this is the longest line in the film and it was running into B8 — and B8 cannot move, it is pinned to the moon cut. |
-| B8 | 0:49.0 | "Together they make a signal. And we know where to point it." | The ritual as engineering. Even and explanatory. **The cut lands mid-line, on "signal"** — the exterior, beams leaving the roof and converging on the moon, at 0:49.9 — so the first sentence is spoken inside the dome and the second is spoken over the moon. Do not rush the second half; the image is already making the argument and the line only has to confirm it. This is the shot the film is named after. |
+| B5 | 0:36.0 | "We have no power. So we are building a machine out of people." | Over the lab going dark. **Two old lines welded into one**, because "we have no machines" was a step the audience takes for itself the moment they see the lab go dark. The "so" is the whole sentence: it makes the plan a consequence rather than an idea. Present tense, matter of fact, and said as though it were the obvious next step, because to her it is. |
+| B7 | 0:42.1 | "The bands read breath and pulse. Three hundred people moving as one." | A parts list, and **the one line that says what the apparatus actually does**. The headbands are on screen through the whole ritual and until now nothing named them, which left the room looking like a rite instead of an instrument. Technical, unhurried, quietly pleased with how neat it is. No mysticism whatsoever. |
+| B8 | 0:47.5 | "Together they make one signal." | The ritual as engineering, and it is now four words shorter because the second half — "and we know where to point it" — was saying what the very next shot shows. **The cut lands on "signal"**: the exterior, beams leaving the roof and converging on the moon, at 0:49.9. This is the shot the film is named after, and the line hands it over rather than narrating it. |
 | B9 | 0:54.3 | "The number has to stay above eighty. That is the whole plan." | **The most load-bearing line in the film.** It hands the audience the scoreboard, and it names the thing in the corner of the frame so they know what to watch. Read it as a spec, not a challenge — she is stating a target, not making a vow. Everything after this is suspense only because this line is clear, so give it air. |
 | A4 | 0:59.6 | "They still get together. I think that is sweet." | Genuinely warm. No irony on "sweet". He has just heard the entire plan and understood none of it. |
-| B10 | 1:03.8 | "Something is answering." | Over the readout waking, on the SIGNAL STRENGTH card. Three words. The first hint that anybody is out there — reported as a result, not a revelation. |
+| B10 | 1:03.4 | "It locks. Something answers." | Over the readout waking, on the SIGNAL STRENGTH card. Four words, and the second half of the mechanism: B7 said what the bands read, this says what happens when the room comes into phase. "Locks" is the engineering word and it is the only one she needs. The first hint that anybody is out there — reported as a result, not a revelation. |
 
 ### ACT III — IT WORKS, AND HE ARRIVES (1:05–1:35)
 
@@ -310,12 +378,14 @@ sees someone in the doorway.*
 | A6 | 1:22.6 | "Ninety-six decibels. Over the limit." | Purely administrative, and it states the rule he is about to enforce. The coldest line in the film and it must be the dullest. Sits inside the meter shot either way; nudged earlier so it clears B13, which is pinned to the 79.9 on screen and cannot move. |
 | B13 | 1:26.0 | "Seventy-nine point nine. Hold it there." | **The number on screen reads 79.9 as she says it, and it never gets higher before the attack.** She is one tenth short and she does not know that is as close as they will come. Do not play the disappointment — she still thinks they will get there. The audience does the ache. |
 | B14 | 1:29.4 | "Someone at the door is measuring us." | **The two halves of the film touch for the first time.** Not alarm — she has noticed something and is reporting it while she works. The audience is far more worried than she is. |
-| B15 | 1:33.3 | "Not a reflection. An answer." | Over the moon going blood-orange. The payoff of the plan. Four words, the second pair landing on the cut. Do not raise the voice; the picture is shouting. |
 
 ### ACT IV — THE SQUEEZE (1:35–2:24)
 
 *He attacks the evidence rather than the people. When it recovers anyway, he
-cuts the power.* C1 sits at 2:06.0, in the gap between A11 and A12.
+cuts the power.* **The third voice is absent for the whole act**, which is the
+longest he is away — ninety seconds, from 0:53 to 2:27. A man remembering how it
+turned out cannot narrate the part where they lose without telling you they
+survive it. He goes quiet while it happens and comes back the instant it turns.
 
 | # | at | line | note |
 |---|---|---|---|
@@ -333,13 +403,14 @@ cuts the power.* C1 sits at 2:06.0, in the gap between A11 and A12.
 ### ACT V — THE ANSWER (2:24–3:00)
 
 *The closed file reopens. He is contradicted inside his own sentence. She gets
-the last word.* C2 sits at 2:27.6, between A13 and B19.
+the last word.* **This is the act the third voice was recorded for.** C3 lands
+four tenths of a second after A13 and answers it in A13's own tense; C4, ten
+seconds later, is the only line in the film that describes the world afterwards.
 
 | # | at | line | note |
 |---|---|---|---|
 | A13 | 2:24.8 | "There was nothing left. I checked." | **The number crosses eighty for the first time in the entire film four tenths of a second before he says this**, and the picture under him is a beast's hand pushing the dome's plug back into the socket while the lights come up. Total confidence, contradicted twice in the same second — by the corner of his own frame and by the shot he is talking over. |
-| B19 | 2:32.6 | "It did not die. It is holding us up now." | Over the moon with an eye. It is alive, and it is carrying them — the line the whole positive reading of the ending hangs on, and it was "it just does not need us now" until the cut proved that told an audience the opposite of the story. Quiet — the first time she sounds like anything other than an engineer. |
-| — | 2:37.2–2:41.8 | **silence** | The field, whole again — the first time the collective thing has been on screen since it was erased. The film answers with pictures. |
+| — | 2:28.4–2:38.4 | **silence** | **Ten seconds, and the longest hold in the film.** It picks up a second into THE TURN and runs through the rest of it and all of the moon with an eye. There was a line here once, "It did not die. It is holding us up now.", and it was saying in words what two shots were already saying in pictures. The film answers with pictures. Do not fill this — C4 lands on the far side of it, a second into the shot after, not inside it. |
 | B20 | 2:42.2 | "Over eighty. It is holding." | The screen reads 85.0. **The target from 0:54, cleared** — the line the whole film has been waiting for, and it should be read as plainly as the reading at 1:26. The audience supplies the elation. |
 | B21 | 2:44.8 | "We woke something up. And it came back for us." | Over the moon dance, as the group joins. **The bond — the actual moonshot.** Not triumph. Closer to being met. |
 | A14 | 2:49.4 | "We will need to do something about the moon." | His last line, and he has learned nothing — the logic does not stop, it moves up a scale. It lands *inside* the card where the machine picks a side, so he files a note about the moon while the thing commits behind him. Read exactly like A2: a small administrative note to himself. No wink. Funnier and worse if he means it. |
@@ -360,15 +431,11 @@ Same file, after the main reads.
 | A9 | "You are not having fun. Your own machine agrees." |
 | A10 | "They kept dancing in the dark. Nobody planned for that." |
 | A14 | "We are going to need to do something about the moon." |
-| B2 | "They say there is nothing left to do. We call it the Nothing." — the fuller version; two words longer, so only if the gap holds. |
-| B3 | "They took our money. Last week they took our power." |
 | B9 | "The number has to stay above eighty. That is the entire plan." — and one read that puts the stress on "stay" rather than "eighty". |
 | B13 | "Seventy-nine nine. Hold it there." — the way someone actually reads a meter aloud. Record both; we will choose against the picture. |
 | B14 | "Someone at the door is measuring us." — and one read with "There is someone at the door with a meter." |
-| B15 | "Not a reflection. A reply." |
 | B17 | "It is coming back. Don't stop." — the contraction may sit better under pressure. |
 | B18 | "Zero. I think we killed it." — the singular is lonelier; worth having. |
-| B19 | "It did not die. It just does not need us any more." |
 | B20 | "Eighty-five. It is holding." — only usable if this line does not move in the edit. |
 | B21 | "We woke something up. And it came back." |
 | B22 | "They said it was behind us. It is in front of us." |
@@ -383,3 +450,12 @@ Nothing rebuts him in words at the end either. The rebuttal is the number, which
 is real, which he cannot edit, and which crosses her threshold at the exact
 moment he says there is nothing left. Please resist any note asking B to answer
 him directly. She never knows he is there, and that is why she is credible.
+
+**C3 is not an exception to that, and it would stop working if it became one.**
+"But we prevailed" arrives four tenths of a second after "There was nothing left.
+I checked." and it is not addressed to him, not written against him, and not
+recorded in response to him. It is a man answering a question somebody else
+asked, on another day, about his own life. Everything that lands is landing in
+the cut. If it is ever re-recorded to point at A, or A is ever re-timed to set it
+up, the film has put words in a real person's mouth to win an argument, which is
+the one thing none of this is allowed to do.

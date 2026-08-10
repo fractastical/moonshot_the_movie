@@ -12,7 +12,7 @@ and nothing burned into the picture in either:
 | `moonshot_1080p.mp4` | 1920×1080, 30fps | the master |
 | `moonshot_720p.mp4` | 1280×720, 30fps | review, comments, anything with a size limit |
 | `moonshot_prompts.pdf` / `.txt` | one page per generated shot | the prompt sheet |
-| `moonshot_vo-script.pdf` / `.txt` | 36 lines, two speakers, timecoded | the voice-over recording script |
+| `moonshot_vo-script.pdf` / `.txt` | 31 lines, two speakers, timecoded | the voice-over recording script |
 
 Runtime is exactly **180.000s / 5400 frames**, 51 segments.
 
@@ -140,12 +140,18 @@ trimmed — please flag a timing change rather than cutting into it.
   shopping list: this is what to iterate on to re-roll one shot without disturbing
   the others. There's a [plain text version](docs/moonshot_prompts.txt) too, which
   is the one you'll actually copy out of.
-- [`docs/vo-script.md`](docs/vo-script.md) — the voice-over: 36 lines for two
+- [`docs/vo-script.md`](docs/vo-script.md) — the voice-over: 31 lines for two
   speakers recorded separately, timecoded, with direction notes and a recording
   spec, plus a third voice that is a recording rather than a part. It opens with
   the whole plot in one plain paragraph. The
-  [PDF](docs/moonshot_vo-script.pdf) is the booth version, and carries the 36
+  [PDF](docs/moonshot_vo-script.pdf) is the booth version, and carries the 31
   lines that are actually going to be performed.
+- [`docs/seb-narration.md`](docs/seb-narration.md) — the third voice in full: a
+  nine-minute recording of one of the people who built this, answering questions
+  about the crisis, the solution, the technology, the network, the conflict and
+  the outcome. Ten seconds of it are in the film. The rest is the best raw
+  material this project has, and it is here rather than in a build directory
+  because it does not survive a clean checkout otherwise.
 - [`docs/generation-prompts.md`](docs/generation-prompts.md) — the same shots with
   more around them: reference plates, continuity rules, alternates, priority
   order. Start here if you're re-rolling one.
@@ -159,40 +165,52 @@ trimmed — please flag a timing change rather than cutting into it.
 
 ## What changed in this cut
 
-Two things arrived from outside the edit and both are the same kind of material:
-not written, not generated, and not re-creatable. They went in on the same rule —
-replace like with like, and do not make the film longer. Every act still runs to
-the frame it ran to before, and the cut is still 51 segments and 180.000s.
+**The film now has two men telling you how it turned out, and they disagree
+about who won.**
 
-- **The real structure is in the film.** Two seconds of the tabernacle
-  half-built, on the site's own camera, now open Act II at **0:39**. Every
-  generated shot in that act asks for *"raw pine framing and silver mylar
-  sheeting"* — and that phrase was not invented for the prompts, it describes a
-  real structure a real camera was pointed at a month before any of them were
-  run. So the act shows the thing itself before it cuts inside the generator's
-  version of it, which is the right way round. It cost half a second off the
-  interior it introduces, and the whole of a stock microscopy shot at 1:02.
-- **The cameras go blind at the bottom of Act IV.** At **2:12.9**, two seconds
-  after the wall of 1969 goes out, the site's outdoor camera reads NO SIGNAL with
-  its list of prohibitions still scrolling across the top of it. It replaces a
-  stock glitch loop, and that is the whole trade: a picture of a feed corrupting,
-  swapped for a feed that stopped. The film's own erasure is at full strength on
-  that frame, so the shot is torn by the same process that put the card up.
-- **A third voice, twice, for five seconds.** Not a part. It is a real recording
-  of one of the people who built this, taken off a video call, saying what it is
-  for in his own words — *"It turns us into spectators"* at **2:06**, and
-  *"Really enliven the moon as a symbol of the future"* at **2:27.6**. He is
-  never synthesised, and he cannot hear either of the other two speakers, which
-  is what makes him admissible in a script that has always refused to let one
-  voice rebut another. He is the same class of object as the number in the
-  corner: something that came off the world and cannot be edited to suit the
-  argument.
-- **Two lines is what the film had room for, and that is the finding.** He said a
-  great deal more and most of it is good. The widest hole left in a cut that is
-  56% speech is 4.7 seconds, and his best sentence — *"The moon is one of many
-  examples of a future that's being lost"* — runs 7.4. The only gaps big enough
-  are the two deliberate silences, and spending either costs more than it buys.
+- **The third voice is a second retrospective, not an insert.** He was recorded
+  again, and this time it is an interview: he is asked six questions about a
+  planetary crisis in 2026 and answers them in the past tense, from afterwards,
+  as a member of the unit that did it and came through it. Until now the
+  antagonist owned the past tense outright, which is what made him sound settled.
+  He no longer does. At **2:24.8** A says *"There was nothing left. I checked."*
+  and four tenths of a second later a real human voice says **"But we
+  prevailed."**
+- **It is still not a rebuttal**, which is the rule this script has always run
+  on. He cannot hear the antagonist, has never heard of him, and is answering an
+  interviewer in another room about something that actually happened. The
+  adjacency does the work and nothing is put in his mouth.
+- **Four lines, ten seconds, all off one recording.** *"We were losing the
+  connection to our future"* at **0:22**, landing on the authority claiming he
+  wrote the rules. *"We will not go back to the moon. We will bring the moon
+  here"* at **0:49.6**. *"But we prevailed"* at **2:27.6**. And at **2:38.4**,
+  over the collective thing coherent on screen for the first time since it was
+  erased, *"It's something that we do here now all the time"* — the closest the
+  film comes to showing the future rather than the fight, and deliberately
+  ordinary: not a victory, a habit.
+- **Nothing is re-read.** The previous version needed two lines said again
+  because the takes were the wrong length. Every word in the film is now a
+  sentence he offered without being asked for it, which is the whole licence for
+  a real voice being in a fiction.
+- **The film is quieter.** Ten seconds of him against fifteen, and speech drops
+  from 97s to 92s across the three minutes.
 
-Earlier releases carry their own notes: the moonshot exterior and the plug going
-back in ([v1.2](../../releases/tag/v1.2-animatic)), the instrument panels and the
-fifth-grade rewrite ([v1.1](../../releases/tag/v1.1-animatic)).
+Two mechanical fixes came with it, and one of them mattered more than the edit:
+
+- **The readout stays in the clean cut.** The overlay was one function doing two
+  jobs, so the clean build threw away both. Act labels, timecode and source tags
+  belong to the edit; the VIBE number does not — the scientist names eighty as
+  the target at 0:54 and seven lines after it are read off that corner. Stripping
+  it left those lines pointing at nothing. It is split now, and the figures carry
+  a dark stroke instead of a bar, because a bar reads as editorial furniture.
+- **The encode was one frame long.** Rounding all 51 shot durations to whole
+  frames independently let the error accumulate: 5401 frames is 180.033s, against
+  a three-minute maximum. Rounding the shot *boundaries* instead makes the counts
+  sum to exactly 5400 whatever the EDL does in between. Worst-case shot drift is
+  8ms, a quarter of a frame. **The file is now 180.000s, to the frame.**
+
+Earlier releases carry their own notes: the site's own cameras and the first two
+lines of the third voice ([v1.4](../../releases/tag/v1.4)), the moonshot exterior
+and the plug going back in ([v1.2](../../releases/tag/v1.2-animatic)), the
+instrument panels and the fifth-grade rewrite
+([v1.1](../../releases/tag/v1.1-animatic)).
