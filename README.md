@@ -1,23 +1,41 @@
 # MOONSHOT — 3:00 animatic
 
+## ▶ Current cut: **v1.6 — *the room itself*** · 12 August 2026
+
+### [**Download it here**](https://github.com/fractastical/moonshot_the_movie/releases/tag/v1.6)
+
+**Watch `moonshot_720p.mp4`** (58 MB) unless you need the master. If you were
+sent an older link, anything before v1.6 is missing the real crowd in Act V.
+
+---
+
 An animatic for a three-minute film assembled out of a real exhibition. The
 footage, the score and the colour grade are all driven by crowd telemetry
 recorded off a live installation.
 
-**Download the cut from [Releases](../../releases/latest).** Two files, same edit,
-and nothing burned into the picture in either:
+**Three files on the release**, all the same edit, and nothing burned into the
+picture in any of them:
 
 | file | | |
 |---|---|---|
-| `moonshot_1080p.mp4` | 1920×1080, 30fps | the master |
-| `moonshot_720p.mp4` | 1280×720, 30fps | review, comments, anything with a size limit |
-| `moonshot_submission.mp4` | 1920×1080, 30fps | the film with the sponsor end card on the end — **the competition file, not the one to watch** |
-| `moonshot_prompts.pdf` / `.txt` | one page per generated shot | the prompt sheet |
-| `moonshot_vo-script.pdf` / `.txt` | 31 lines, two speakers, timecoded | the voice-over recording script |
+| `moonshot_720p.mp4` | 1280×720, 30fps, 58 MB | **start here** — review, comments, anything with a size limit |
+| `moonshot_1080p.mp4` | 1920×1080, 30fps, 424 MB | the master |
+| `moonshot_submission.mp4` | 1920×1080, 30fps, 425 MB | the film with the sponsor end card on the end — **the competition file, not the one to watch** |
+| `moonshot_prompts.pdf` / `.txt` | one page per generated shot | the prompt sheet, in `docs/` |
+| `moonshot_vo-script.pdf` / `.txt` | 31 lines, two speakers, timecoded | the voice-over recording script, in `docs/` |
 
 Runtime is exactly **180.000s / 5400 frames**, 51 segments. The submission file is
 5850 frames: the same 180.000s, then 15.000s of the sponsor card, which sits
 outside the three-minute maximum rather than inside it.
+
+### Which cut is which
+
+| | | |
+|---|---|---|
+| **[v1.6](../../releases/tag/v1.6)** | 12 Aug | **current** — the real crowd in Act V, in colour, and the sponsor end card |
+| [v1.5](../../releases/tag/v1.5) | 10 Aug | the third voice becomes the film's second retrospective |
+| [v1.4](../../releases/tag/v1.4) | 9 Aug | our own cameras in the cut, and a third voice that is not a part |
+| [v1.3](../../releases/tag/v1.3) | 9 Aug | first clean cut with no chrome burned in |
 
 ---
 
@@ -166,7 +184,7 @@ trimmed — please flag a timing change rather than cutting into it.
   antagonist's coat, the protagonist and the film's grade are each pinned to an
   image pulled from footage we own.
 
-## What changed in this cut
+## What changed in v1.6
 
 **The room is in the film, in colour, and the ending is no longer at one
 remove.**
@@ -198,7 +216,7 @@ the aftermath at 2:19, whose entire job is that nobody is there and nothing
 moves. Filling the film's one deliberate hole with people would have cost more
 than the footage is worth.
 
-## The cut before this one
+## What changed in v1.5
 
 **The film has two men telling you how it turned out, and they disagree
 about who won.**
