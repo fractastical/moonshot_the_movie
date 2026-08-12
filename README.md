@@ -11,10 +11,13 @@ and nothing burned into the picture in either:
 |---|---|---|
 | `moonshot_1080p.mp4` | 1920×1080, 30fps | the master |
 | `moonshot_720p.mp4` | 1280×720, 30fps | review, comments, anything with a size limit |
+| `moonshot_submission.mp4` | 1920×1080, 30fps | the film with the sponsor end card on the end — **the competition file, not the one to watch** |
 | `moonshot_prompts.pdf` / `.txt` | one page per generated shot | the prompt sheet |
 | `moonshot_vo-script.pdf` / `.txt` | 31 lines, two speakers, timecoded | the voice-over recording script |
 
-Runtime is exactly **180.000s / 5400 frames**, 51 segments.
+Runtime is exactly **180.000s / 5400 frames**, 51 segments. The submission file is
+5850 frames: the same 180.000s, then 15.000s of the sponsor card, which sits
+outside the three-minute maximum rather than inside it.
 
 ---
 
@@ -165,7 +168,39 @@ trimmed — please flag a timing change rather than cutting into it.
 
 ## What changed in this cut
 
-**The film now has two men telling you how it turned out, and they disagree
+**The room is in the film, in colour, and the ending is no longer at one
+remove.**
+
+- **Six seconds of the actual crowd, at 2:41.9.** The venue's own camera, 02:51
+  on 26 July, three hundred people in a dome with the date burned into the
+  corner. It replaces a moon dance taken from a produced edit of the same event
+  — which was doing the job of showing a crowd, and doing it at one remove. B21
+  lands on it: *"We woke something up. And it came back for us."* is a different
+  sentence when *us* is on screen.
+- **It is the only real colour this production owns.** Four acts are
+  near-monochrome by design, and the ending had been reading as the same drained
+  picture with a better number on it. Nothing was regraded to allow this: the
+  grade is a pure function of the telemetry, colour saturates at vibe 78, and
+  Act V sits at 87 — so the footage arrives at full strength on its own.
+- **The date stays in frame.** A timestamped camera is the same class of object
+  as the number and the third voice: something that came off the world and
+  cannot be edited to suit the argument.
+- **Chosen by measuring, not scrubbing.** Every six-second window in the
+  fifty-two minute file was scored for colour, movement and exposure; this one
+  holds all three without a blackout or a strobe hit, and its beams fan up and
+  out, which answers the generated exterior at 0:51.4 with the real article.
+
+**What did not go in.** A second camera ran the same fifty-two minutes pointed
+outside, in infrared, and none of it is in the film. Its best idea is real — at
+the same second the room inside is at 87, the field outside is empty but for one
+person walking past a dropped bike — but the only shot it could have taken is
+the aftermath at 2:19, whose entire job is that nobody is there and nothing
+moves. Filling the film's one deliberate hole with people would have cost more
+than the footage is worth.
+
+## The cut before this one
+
+**The film has two men telling you how it turned out, and they disagree
 about who won.**
 
 - **The third voice is a second retrospective, not an insert.** He was recorded
