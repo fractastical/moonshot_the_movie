@@ -13,14 +13,15 @@ An animatic for a three-minute film assembled out of a real exhibition. The
 footage, the score and the colour grade are all driven by crowd telemetry
 recorded off a live installation.
 
-**Three files on the release**, all the same edit, and nothing burned into the
-picture in any of them:
+**Three video files on the release**, all the same edit, and nothing burned into
+the picture in any of them:
 
 | file | | |
 |---|---|---|
 | `moonshot_720p.mp4` | 1280×720, 30fps, 58 MB | **start here** — review, comments, anything with a size limit |
 | `moonshot_1080p.mp4` | 1920×1080, 30fps, 424 MB | the master |
 | `moonshot_submission.mp4` | 1920×1080, 30fps, 425 MB | the film with the sponsor end card on the end — **the competition file, not the one to watch** |
+| `moonshot_score.wav` | 44.1kHz stereo, 180.000s, 30 MB | the score on its own, no voices over it |
 | `moonshot_prompts.pdf` / `.txt` | one page per generated shot | the prompt sheet, in `docs/` |
 | `moonshot_vo-script.pdf` / `.txt` | 31 lines, two speakers, timecoded | the voice-over recording script, in `docs/` |
 
@@ -152,6 +153,13 @@ reveals.
 The score is synthesised from the same telemetry, so it is bound to picture
 timing. If a section changes length the music has to be regenerated rather than
 trimmed — please flag a timing change rather than cutting into it.
+
+**The music itself is on the release** as
+[`moonshot_score.wav`](../../releases/tag/v1.6) — the score alone, with no voices
+over it. It runs 180.000s, the length of the cut to the sample, so it drops
+against picture at 00:00 without sync work. It is not tracked in this repository
+because a 30 MB wav does not belong in a checkout; the code that generates it
+does, and the words that go over it are in `docs/`.
 
 ## The docs
 
